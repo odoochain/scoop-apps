@@ -1,16 +1,16 @@
 {
-    "version": "7.0.0-beta.48",
+    "version": "7.0.0-beta.51",
     "description": "Open-source reference management software to manage bibliographic data and related research materials.",
     "homepage": "https://www.zotero.org/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.zotero.org/client/beta/7.0.0-beta.48%2B0cab24fb8/Zotero-7.0.0-beta.48%2B0cab24fb8_x64_setup.exe#/dl.7z",
-            "hash": "efb81079682f8697bd0a308e7eef47291758b2c4d67fd11937691ccd9b6fa274"
+            "url": "https://download.zotero.org/client/beta/7.0.0-beta.51%2B7c5600913/Zotero-7.0.0-beta.51%2B7c5600913_x64_setup.exe#/dl.7z",
+            "hash": "26b9691f48ac5bccf8c9c610a63c74dadd82ec3d7c0415294d4df7d8e7584755"
         },
         "32bit": {
-            "url": "https://download.zotero.org/client/beta/7.0.0-beta.48%2B0cab24fb8/Zotero-7.0.0-beta.48%2B0cab24fb8_win32_setup.exe#/dl.7z",
-            "hash": "83878ad8160465241de8aad7e996eb241e7574bfc06138978aa2251bfd01b59b"
+            "url": "https://download.zotero.org/client/beta/7.0.0-beta.51%2B7c5600913/Zotero-7.0.0-beta.51%2B7c5600913_win32_setup.exe#/dl.7z",
+            "hash": "6e68d05cdf90dc8ad1fb0931078a82226f3836e9ea3b6fe7f550f12bc1d4e7ba"
         }
     },
     "extract_dir": "core",
@@ -20,6 +20,32 @@
             "zotero.exe",
             "Zotero"
         ]
+    ],
+    "notes": [
+        "To register the 'zotero://' URL protocol, run:",
+        "$dir\\install-zotero-url-protocol.ps1",
+        "",
+        "Existing 'zotero://' URL protocol may be overwrite.",
+        "",
+        "To unregister the 'zotero://' URL protocol, run:",
+        "$dir\\uninstall-zotero-url-protocol.ps1"
+    ],
+    "post_install": [
+        "if (!$bucket) { return }",
+        "$scriptsDir = \"$bucketsdir\\$bucket\\scripts\"",
+        "Get-ChildItem \"$scriptsDir\\zotero\\*.ps1\" | ForEach-Object {",
+        "    $content = Get-Content $_",
+        "    $content = $content.Replace('REPLACE_HERE', $dir)",
+        "    if ($global) { $content = $content.Replace('HKCU', 'HKLM') }",
+        "    Set-Content \"$dir\\$($_.Name)\" $content -Encoding 'utf8' -Force",
+        "}"
+    ],
+    "pre_uninstall": [
+        "if ($cmd -eq 'uninstall') {",
+        "    Write-Host 'Unregistering the ''zotero://'' URL protocol...'",
+        "    Remove-Item 'HKCU:\\SOFTWARE\\Classes\\zotero', 'HKLM:\\SOFTWARE\\Classes\\zotero' -ErrorAction 'SilentlyContinue' -Recurse -Force",
+        "    Write-Host 'Done!'",
+        "}"
     ],
     "checkver": {
         "script": [

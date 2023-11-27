@@ -1,5 +1,5 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.2",
     "description": "专为手柄控制设计的第三方跨平台B站客户端，目前可以运行在PC全平台和Nintendo Switch上 | Yet another Bilibili client",
     "homepage": "https://xfangfang.github.io/wiliwili",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xfangfang/wiliwili/releases/download/v1.2.0/wiliwili-Windows-x86_64.zip",
-            "hash": "bbb4c01c05786f7465e839942161fb656bbb9e3400d2a04a1c46dcbde5a5457d"
+            "url": "https://github.com/xfangfang/wiliwili/releases/download/v1.2.2/wiliwili-Windows-x86_64.zip",
+            "hash": "cbe328f764e7370a56a9c829dc839df1f2dd270d279b0b0c16bacfcf27aa07c7"
         }
     },
     "extract_dir": "wiliwili",

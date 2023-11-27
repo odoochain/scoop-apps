@@ -1,5 +1,5 @@
 {
-    "version": "2023.10.3.2",
+    "version": "2023.10.3.6",
     "homepage": "https://portswigger.net/burp",
     "description": "An application that comes with set of tools used for penetration and security testing of web applications.",
     "license": {
@@ -10,8 +10,8 @@
         "JDK": "java/openjdk",
         "JRE": "java/temurin-jre"
     },
-    "url": "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2023.10.3.2&type=Jar#/burpsuite-pro.jar",
-    "hash": "d4caf28e6f1463c01e4fcd42614bb3608b9593f0b605b3a25d8521e44771eb0b",
+    "url": "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2023.10.3.6&type=Jar#/burpsuite-pro.jar",
+    "hash": "dc555def5c3489be3a275a1e29ce29218588263cf06176b998a2c8203c19f24a",
     "pre_install": [
         "$currentDir = $dir.Replace(\"$version\", 'current')",
         "[System.IO.File]::WriteAllLines(\"$dir\\burpsuite-pro.cmd\", '@start javaw -jar \"%~dp0burpsuite-pro.jar\"', [System.text.UTF8Encoding]($false))"

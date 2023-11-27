@@ -1,14 +1,14 @@
 {
-    "version": "v3.0.0-nightly.20231103",
+    "version": "v3.0.0-nightly.20231126",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/go-gost/gost/releases/download/v3.0.0-nightly.20231103/gost_3.0.0-nightly.20231103_windows_amd64.zip",
-            "hash": "00f57615e4ae806ce8f19f4ef900775b812a1beca1d55651e913c020b72dff51",
+            "url": "https://github.com/go-gost/gost/releases/download/v3.0.0-nightly.20231126/gost_3.0.0-nightly.20231126_windows_amd64.zip",
+            "hash": "96710cb896989e2157dd11651bc3a6c26ebc14838790cd2088bbef17edae6557",
             "pre_install": "Rename-Item \"$dir/gost*.exe\" \"$dir/gostv3.exe\""
         },
         "32bit": {
-            "url": "https://github.com/go-gost/gost/releases/download/v3.0.0-nightly.20231103/gost_3.0.0-nightly.20231103_windows_386.zip",
-            "hash": "24309d1f658d8318782c6b025e1290b3b266bcfbbb9c86136b8ce5089b01530c",
+            "url": "https://github.com/go-gost/gost/releases/download/v3.0.0-nightly.20231126/gost_3.0.0-nightly.20231126_windows_386.zip",
+            "hash": "87958ce71a7fb75e1382aadadff31d47372746c28e8aaece2136d215f74b2dc1",
             "pre_install": "Rename-Item \"$dir/gost*.exe\" \"$dir/gostv3.exe\""
         }
     },

@@ -1,20 +1,20 @@
 {
-    "version": "1.7.2",
+    "version": "1.7.8",
     "description": "A CLI utility to validate yaml and json files against a schema",
     "homepage": "https://github.com/adrielp/schemacheck",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/adrielp/schemacheck/releases/download/v1.7.2/schemacheck_Windows_x86_64.zip",
-            "hash": "c5f779b643dcce3fb2282ad004e234789e42ea2d3d012a0f3ca04f4cefb24771"
+            "url": "https://github.com/adrielp/schemacheck/releases/download/v1.7.8/schemacheck_Windows_x86_64.zip",
+            "hash": "41a8c505671e2094bf5ef03fdeb5a531a2964eb4b260aaf1c6a73ba4a5332fd5"
         },
         "32bit": {
-            "url": "https://github.com/adrielp/schemacheck/releases/download/v1.7.2/schemacheck_Windows_i386.zip",
-            "hash": "09d7e520c7ab01f7f33254afc0367ba7e194fc1267e6e1128f7d530eebfe6795"
+            "url": "https://github.com/adrielp/schemacheck/releases/download/v1.7.8/schemacheck_Windows_i386.zip",
+            "hash": "1aeb67d9ef68bc3c9c3426a5668e36f84a2cd328bb1c4cc57f2024d716b7386a"
         },
         "arm64": {
-            "url": "https://github.com/adrielp/schemacheck/releases/download/v1.7.2/schemacheck_Windows_arm64.zip",
-            "hash": "d419205e20aa46297a0ff9aeb4e989abda4d5a118e5526f4ee513c08a9f24081"
+            "url": "https://github.com/adrielp/schemacheck/releases/download/v1.7.8/schemacheck_Windows_arm64.zip",
+            "hash": "f8b9e145ec6b24dd3d249129de99b7fb9b72f01e4568c341cc55b26025967482"
         }
     },
     "bin": "schemacheck.exe",

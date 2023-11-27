@@ -1,5 +1,5 @@
 {
-    "version": "2.9.9",
+    "version": "2.9.12",
     "description": "A well-designed cross-platform ChatGPT UI",
     "homepage": "https://github.com/Yidadaa/ChatGPT-Next-Web",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Yidadaa/ChatGPT-Next-Web/releases/download/v2.9.9/ChatGPT.Next.Web_2.9.9_x64_en-US.msi",
-            "hash": "b447d4018c2ac2274d5e22838af26347c8e6a26776e78c80a51408a6e9681a10"
+            "url": "https://github.com/Yidadaa/ChatGPT-Next-Web/releases/download/v2.9.12/ChatGPT.Next.Web_2.9.12_x64_en-US.msi",
+            "hash": "86854f0de0309c841f4585a73de4d0f2961ea5f84fcee60334921bc5939501d3"
         }
     },
     "extract_dir": "PFiles\\ChatGPT Next Web",

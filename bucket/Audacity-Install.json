@@ -1,17 +1,17 @@
 {
-    "version": "3.3.3",
+    "version": "3.4.2",
     "description": "Audacity. An easy-to-use, multi-track audio editor and recorder",
     "homepage": "https://www.audacityteam.org",
     "license": "GPL-2.0-or-later",
     "changelog": "https://wiki.audacityteam.org/wiki/Audacity_Versions",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.3.3/audacity-win-3.3.3-x64.exe#/setup.exe",
-            "hash": "379a03b37fba8d4b71e10cb0034e303e43cb2fbffb9af423a7b87be3b32bf94d"
+            "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.4.2/audacity-win-3.4.2-64bit.exe#/setup.exe",
+            "hash": "d7bd5ae775db9e42da6058da4a65a8f898a46ce467d9f21585084566213c36bf"
         },
         "32bit": {
-            "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.3.3/audacity-win-3.3.3-x32.exe#/setup.exe",
-            "hash": "5557df6b8ae57fc46443f9e85a42bac50fa37456c0757c5569e60430d0e359dc"
+            "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.4.2/audacity-win-3.4.2-32bit.exe#/setup.exe",
+            "hash": "7f7dd6f96643a1a826d1c91a5217721f97474f171a6335c47d4c50a76c7aceaa"
         }
     },
     "pre_download": "Assert-Administrator",
@@ -55,10 +55,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/audacity/audacity/releases/download/Audacity-$version/audacity-win-$version-x64.exe#/setup.exe"
+                "url": "https://github.com/audacity/audacity/releases/download/Audacity-$version/audacity-win-$version-64bit.exe#/setup.exe"
             },
             "32bit": {
-                "url": "https://github.com/audacity/audacity/releases/download/Audacity-$version/audacity-win-$version-x32.exe#/setup.exe"
+                "url": "https://github.com/audacity/audacity/releases/download/Audacity-$version/audacity-win-$version-32bit.exe#/setup.exe"
             }
         }
     }

@@ -1,0 +1,40 @@
+{
+    "version": "3.11.5",
+    "description": "猫眼浏览器是一款以简约安全为目标Chrome内核增强版浏览器",
+    "homepage": "https://www.catsxp.com",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://catsxp.oss-cn-hongkong.aliyuncs.com/x64/portable_x64_release_119_3_11_5.zip",
+            "hash": "36968f6bb0719dce314bf0ac5660d9a32464ee525c91b165b8e31be259c9c768"
+        },
+        "32bit": {
+            "url": "https://catsxp.oss-cn-hongkong.aliyuncs.com/x86/portable_x86_release_119_3_11_5.zip",
+            "hash": "08b40145216013325f4598f3f82c41c11c64c4ec3bb6804cd0f497118f84f5ee"
+        }
+    },
+    "shortcuts": [
+        [
+            "catsxp.exe",
+            "猫眼浏览器"
+        ]
+    ],
+    "checkver": {
+        "regex": "(?sm)<li>(?:版本|Ver)：([\\d.]+)</li>\\s*<li>(?:内核|Kernel)：(?<kernelmajor>\\d+)[\\d.]+</li>"
+    },
+    "persist": [
+        "User Data",
+        "Cache",
+        "StartupParm.txt"
+    ],
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://catsxp.oss-cn-hongkong.aliyuncs.com/x64/portable_x64_release_$matchKernelmajor_$underscoreVersion.zip"
+            },
+            "32bit": {
+                "url": "https://catsxp.oss-cn-hongkong.aliyuncs.com/x86/portable_x86_release_$matchKernelmajor_$underscoreVersion.zip"
+            }
+        }
+    }
+}

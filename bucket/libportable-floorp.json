@@ -1,17 +1,17 @@
 {
-    "version": "11.5.1",
+    "version": "11.6.1",
     "description": "(libportable patched) A new privacy-preserving Firefox-based browser developedby a community of students in Japan.",
-    "homepage": "https://floorp.ablaze.one/en/",
+    "homepage": "https://floorp.app/en/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Floorp-Projects/Floorp/releases/download/v11.5.1/floorp-win64.installer.exe#/dl.7z",
-            "hash": "0742a9a7dd84715308f3527eab30f4fbea08652c817a99b801e5403413611cbe"
+            "url": "https://github.com/Floorp-Projects/Floorp/releases/download/v11.6.1/floorp-win64.installer.exe#/dl.7z",
+            "hash": "4b1a6bac29668bc066d4ffa9923a79378a4c1d2ae3c9c7e967b127b51f5153d8"
         }
     },
     "depends": "lemon/libportable",
     "pre_install": [
-        "if ($env:CI -eq \"true\") { Exit }",
+        "if ($env:CI -eq \"true\") { return }",
         "Remove-Item \"$dir\\setup.exe\", \"$dir\\core\\updater.*\" -Force",
         "Copy-Item \"$(appdir libportable $global)\\current\\portable64.dll\" \"$dir\\core\\\"",
         "if (!(installed 'libportable' $global)) { error 'Please install `libportable` first, then reinstall `libportable-floorp`.' ; Exit }",

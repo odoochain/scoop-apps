@@ -1,0 +1,35 @@
+{
+    "version": "30.0.0",
+    "description": "Video recording and live streaming software",
+    "homepage": "https://obsproject.com",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/obsproject/obs-studio/releases/download/30.0.0/OBS-Studio-30.0.zip",
+            "hash": "016d659a488df07f386e8f2ce7a7db977a788db4ac65e6af1119e326a76d44bf",
+            "shortcuts": [
+                [
+                    "bin\\64bit\\obs64.exe",
+                    "OBS Studio"
+                ]
+            ]
+        }
+    },
+    "pre_install": "if (!(Test-Path \"$persist_dir\\portable_mode.txt\")) { New-Item \"$dir\\portable_mode.txt\" | Out-Null }",
+    "persist": [
+        "config",
+        "portable_mode.txt"
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repositories/13233158/releases",
+        "jsonpath": "$.[0].assets.browser_download_url",
+        "regex": "/([^/]+)/OBS-Studio-(?<trunced>[\\d.]+(?:-(?:rc|beta)\\d+)?)\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/obsproject/obs-studio/releases/download/$version/OBS-Studio-$matchTrunced.zip"
+            }
+        }
+    }
+}

@@ -1,12 +1,12 @@
 {
-    "version": "6.0.23",
+    "version": "6.0.26",
     "homepage": "https://stacher.io/",
     "description": "A Beautiful, Modern GUI for YT-DLP / YOUTUBE-DL.",
     "license": "CC-BY-NC-ND-4.0",
     "architecture": {
         "64bit": {
             "url": "https://cdn.stacher.io/builds/StacherSetup.exe#/dl.7z",
-            "hash": "c56a9a819b5b1987db7bd1f0601b17eb6fe12779afb08a60f6878e7ac7cddf42"
+            "hash": "0e7ab72687ebc124033d303713263d9b5e211a03b0e2bcd394fb8147f11d3861"
         }
     },
     "pre_install": [

@@ -1,12 +1,12 @@
 {
-    "version": "1.3.1.0",
+    "version": "1.4.1.0",
     "description": "A cross-platform GUI wrapper for NextTrace.",
     "homepage": "https://github.com/Archeb/opentrace",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Archeb/opentrace/releases/download/v1.3.1.0/win-x64.zip",
-            "hash": "1efd5ea43e45e16b23f335690799d1b3085971ad2820e0e4a80a58b83655bfa6"
+            "url": "https://github.com/Archeb/opentrace/releases/download/v1.4.1.0/win-x64.zip",
+            "hash": "be745459f7ffdf2070aafe93f67564ec8ae86ffeba1df07461abaab7e4257818"
         }
     },
     "shortcuts": [
