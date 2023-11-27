@@ -7,7 +7,7 @@
         "url": "https://support.google.com/drive/answer/2450387?hl=en"
     },
     "url": "https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe",
-    "hash": "7A8B1BDBF3F1E05F97A5CE077803D9C41A18345B49F4E44863079EE206E9B3B8",
+    "hash": "56343b7eaa631bd2b2395b2a565c3ecf0a7bf30965ac6a1f58e394df4c519faf",
     "pre_install": [
         "if (!(is_admin)) {error \"$app requires admin rights to $cmd\"; break}",
         "Remove-Item \"$env:ProgramFiles\\Google\" -Force; Remove-Item \"${env:ProgramFiles(x86)}\\Google\" -Force | Out-Null",
