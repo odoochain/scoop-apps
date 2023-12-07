@@ -1,5 +1,5 @@
 {
-    "version": "6.4.2-0-g8920cf2",
+    "version": "6.4.2-8-gd581018",
     "description": "A command-line utility that pipes video streams from various services into a video player.",
     "homepage": "https://streamlink.github.io/",
     "license": "BSD-2-Clause",
@@ -16,12 +16,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/streamlink/windows-builds/workflows/nightly/master/streamlink-6.4.2-0-g8920cf2-py311-x86_64.zip.zip",
-            "hash": "907a8ebd8d97f80e5e07d62f891d6cc8af5a96900c724d450d18de3c962300ac"
+            "url": "https://nightly.link/streamlink/windows-builds/workflows/nightly/master/streamlink-6.4.2-8-gd581018-py311-x86_64.zip.zip",
+            "hash": "5cd32da3985d3885dd087ab54b25a68ae8a741b6e76f23d5ccbb44c59fa2ad7e"
         },
         "32bit": {
-            "url": "https://nightly.link/streamlink/windows-builds/workflows/nightly/master/streamlink-6.4.2-0-g8920cf2-py311-x86.zip.zip",
-            "hash": "9210ac0fc8d83af9a159418febaeb25c3ad342d2a546bd9951b789e5ea15dd0f"
+            "url": "https://nightly.link/streamlink/windows-builds/workflows/nightly/master/streamlink-6.4.2-8-gd581018-py311-x86.zip.zip",
+            "hash": "daa059a24f30045142784c598ba976f6d66e62309659887c2274bbdf38bf3761"
         }
     },
     "pre_install": [
@@ -29,16 +29,16 @@
         "$python = try { (py.exe -0p | Select-Object -First 1 | Select-String \\S+\\Z).Matches.Value } catch {}",
         "$paths = 'bin', 'pkgs'",
         "if ($python -and ($ver = [System.Version]((py.exe -V) -Replace '[^\\d.]')) -lt [System.Version]'3.12.0' -and $ver -ge [System.Version]'3.11.0') {",
-        "New-Item -ItemType SymbolicLink -Path \"$dir/Python\" -Target ($python | Split-Path) | Out-Null",
+        "$null = New-Item -ItemType SymbolicLink -Path \"$dir/Python\" -Target ($python | Split-Path)",
         "} else { $paths += 'Python' }",
         "$paths | ForEach-Object { Move-Item \"$dir/streamlink-$version-py311-x86*/$_\" \"$dir\" }",
         "Remove-Item -Recurse \"$dir/streamlink-$version-py311-x86*\"",
         "if (!(Test-Path \"$persist_dir/config\")) {",
         "    if (Test-Path \"$env:APPDATA/streamlink/config\") {",
         "        info 'Copying existing ''config'' from ''%APPDATA%/streamlink/config'''",
-        "        Copy-Item \"$env:APPDATA/streamlink/config\" \"$dir/config\"",
+        "        $null = Copy-Item \"$env:APPDATA/streamlink/config\" \"$dir/config\"",
         "    } else {",
-        "        New-Item \"$dir/config\" | Out-Null",
+        "        $null = New-Item \"$dir/config\"",
         "    }",
         "}"
     ],
@@ -54,7 +54,7 @@
     "checkver": {
         "script": [
             "try {",
-            "    (Invoke-RestMethod https://api.github.com/repositories/472790314/actions/artifacts).artifacts[0].name -Match 'streamlink-([\\w.-]+)-py' | Out-Null",
+            "    $null = (Invoke-RestMethod https://api.github.com/repositories/472790314/actions/artifacts).artifacts[0].name -Match 'streamlink-([\\w.-]+)-py'",
             "    $verSplit = $matches[1].split('-')",
             "    if ($verSplit.Length -eq 3 -and $verSplit[2][0] -eq 'g') { $build = 'nightly' }",
             "    else { $build = 'main' }",

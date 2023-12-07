@@ -1,19 +1,19 @@
 {
-    "version": "21.2.0",
+    "version": "21.4.0",
     "description": "JavaScript runtime environment.",
     "homepage": "https://nodejs.org",
     "license": "MIT",
     "notes": "npm global prefix set to: $env:APPDATA\\npm",
     "architecture": {
         "64bit": {
-            "url": "https://nodejs.org/dist/v21.2.0/node-v21.2.0-win-x64.7z",
-            "hash": "1e3a43166133c752a0fd0b2bc3709145cfc004f7f7c31e1877326e93ceaeeb4c",
-            "extract_dir": "node-v21.2.0-win-x64"
+            "url": "https://nodejs.org/dist/v21.4.0/node-v21.4.0-win-x64.7z",
+            "hash": "54d94594b012c9a5d0cb9ee752831494d1d97b62a7b4e9e228f358e892ff4172",
+            "extract_dir": "node-v21.4.0-win-x64"
         },
         "32bit": {
-            "url": "https://nodejs.org/dist/v21.2.0/node-v21.2.0-win-x86.7z",
-            "hash": "dc31d74348d73bb3013827bf8f1848029bbc05036f4f5907d31a574502b60d3b",
-            "extract_dir": "node-v21.2.0-win-x86"
+            "url": "https://nodejs.org/dist/v21.4.0/node-v21.4.0-win-x86.7z",
+            "hash": "3eda30ea8831f2e39dffec848913de14b38a828d254b40a8a7a4969a878f7eba",
+            "extract_dir": "node-v21.4.0-win-x86"
         }
     },
     "installer": {

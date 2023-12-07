@@ -1,5 +1,5 @@
 {
-    "version": "120.0.6099.35",
+    "version": "120.0.6099.62",
     "description": "Fast, secure, and free web browser, built for the modern web.",
     "homepage": "https://www.google.com/chrome/beta",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dl.google.com/release2/chrome/adkonyblnbsjdfljq7jrrllpwyxa_120.0.6099.35/120.0.6099.35_chrome_installer.exe#/dl.7z",
-            "hash": "e325910ccac1c2a7d69dbceb26fe1c92df9ea028288833717a69b7a8dd6b3f93"
+            "url": "https://dl.google.com/release2/chrome/lqieb7gmnmtrbiqnxnyqt4zabu_120.0.6099.62/120.0.6099.62_chrome_installer.exe#/dl.7z",
+            "hash": "1aec3d43d66a711c2d82b851e8eac04feb69df6297f669e0394f091a7bcaae44"
         },
         "32bit": {
-            "url": "https://dl.google.com/release2/chrome/ado4bl2x5njaawjsnd33iw7w55ta_120.0.6099.35/120.0.6099.35_chrome_installer.exe#/dl.7z",
-            "hash": "8546429c69e64dcd3d9efe4eb7667447a643aa9fbca40c63b4710f564d017cd4"
+            "url": "https://dl.google.com/release2/chrome/ddtpqvuup3z35ysaj24tvn3tpi_120.0.6099.62/120.0.6099.62_chrome_installer.exe#/dl.7z",
+            "hash": "03561327b4345d7afa6372e9f8123b701f02a2ee7b511cdd91f3920179d53a51"
         }
     },
     "installer": {
