@@ -1,13 +1,13 @@
 {
-    "version": "23.08.4-1605",
+    "version": "23.08.4-1607",
     "description": "Universal document viewer",
     "homepage": "https://okular.kde.org",
     "license": "LGPL-2.0-only",
     "notes": "If you want to get the latest development branch-based installer, please install `okular-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://binary-factory.kde.org/job/Okular_Release_win64/1605/artifact/okular-23.08.4-1605-windows-cl-msvc2019-x86_64.7z",
-            "hash": "5dfca6b375ec830b262a2a22c0cc8de00b90533e7db9c8506fa53bbf00bba788"
+            "url": "https://binary-factory.kde.org/job/Okular_Release_win64/1607/artifact/okular-23.08.4-1607-windows-cl-msvc2019-x86_64.7z",
+            "hash": "d11d36f68721861dfaea6bb4da6867623f6a801ea8a5a52d701047862102c1cb"
         }
     },
     "bin": "bin\\okular.exe",

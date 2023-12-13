@@ -107,6 +107,7 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - batkiz/backit
 - mogeko/scoop-sysinternals
 - ChungZH/peach
+- AStupidBear/scoop-bear
 - starise/Scoop-Gaming
 - Velgus/Scoop-Portapps
 - brian6932/dank-scoop
@@ -124,7 +125,7 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - ChinLong/scoop-customize
 - yuusakuri/scoop-bucket
 - Darkatse/Scoop-KanColle
-- Zliced13/MyScoop
+- FlawlessCasual17/MyScoop
 - The-Simples/scoop-minecraft
 - MCOfficer/scoop-bucket
 - KnotUntied/scoop-fonts
