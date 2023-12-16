@@ -1,16 +1,16 @@
 {
-    "version": "2.0.13-2023-12-13",
+    "version": "2.0.13-2023-12-16",
     "description": "A terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the full capabilities of modern terminals.",
     "homepage": "https://micro-editor.github.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/zyedidia/micro/releases/download/nightly/micro-2.0.13-win64.zip",
-            "hash": "8581186a747c9f924ba6ddbb1b7e7783fbb3102719b6b5336d57b6a9fc4b3270"
+            "hash": "83b4a903fe9f52a3db49ba318ac28f7b278acad3c6ea366f46564d814824f495"
         },
         "32bit": {
             "url": "https://github.com/zyedidia/micro/releases/download/nightly/micro-2.0.13-win64.zip",
-            "hash": "8581186a747c9f924ba6ddbb1b7e7783fbb3102719b6b5336d57b6a9fc4b3270"
+            "hash": "83b4a903fe9f52a3db49ba318ac28f7b278acad3c6ea366f46564d814824f495"
         }
     },
     "extract_dir": "micro-2.0.13",

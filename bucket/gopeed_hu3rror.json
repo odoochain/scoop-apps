@@ -2,16 +2,18 @@
     "homepage": "https://github.com/GopeedLab/gopeed",
     "description": "A high-speed downloader developed by Golang + Flutter, supports (HTTP, BitTorrent, Magnet) protocol, and supports all platforms.",
     "license": "GPL-3.0-only",
-    "version": "1.5.2",
+    "version": "1.5.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GopeedLab/gopeed/releases/download/v1.5.2/Gopeed-v1.5.2-windows-amd64-portable.zip",
-            "hash": "0d95ef818eda8d2c0b55d937d9d31b53149080a24a09b2ce331e81d2dcc12385"
+            "url": "https://github.com/GopeedLab/gopeed/releases/download/v1.5.3/Gopeed-v1.5.3-windows-amd64-portable.zip",
+            "hash": "6097f2a180c5ea3503ad761c6a2bc962b852baaa0bde9ea477007a336f75b971"
         }
     },
+    "pre_install": "if(!(Test-Path \"$persist_dir\\gopeed.db\")) { New-Item \"$dir\\gopeed.db\" -ItemType File -Force | Out-Null }",
     "persist": [
         "extensions",
-        ".extensions"
+        ".extensions",
+        "gopeed.db"
     ],
     "shortcuts": [
         [
