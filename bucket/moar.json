@@ -1,10 +1,10 @@
 {
-    "version": "1.18.6",
+    "version": "1.20.0",
     "description": "A pager designed to work without any configuration",
     "homepage": "https://github.com/walles/moar/",
     "license": "BSD-2-Clause-Views",
-    "url": "https://github.com/walles/moar/releases/download/v1.18.6/moar-v1.18.6-windows-amd64.exe#/moar.exe",
-    "hash": "6f03ce08a841a27aad8841eda27905d9b47e157fe330e09571f9c220335e2c79",
+    "url": "https://github.com/walles/moar/releases/download/v1.20.0/moar-v1.20.0-windows-amd64.exe#/moar.exe",
+    "hash": "b457bf02fd3956266b5d8e190e68f6474b5b2d1bae418a66c1daf521bc4cc7ee",
     "bin": "moar.exe",
     "checkver": "github",
     "autoupdate": {

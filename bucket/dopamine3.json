@@ -1,12 +1,12 @@
 {
-    "version": "3.0.0-preview21",
+    "version": "3.0.0-preview.23",
     "homepage": "https://digimezzo.github.io/site/",
     "description": "A continuation of the elegant audio player which tries to make organizing and listening to music as simple and pretty as possible.",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/digimezzo/dopamine/releases/download/v3.0.0-preview21/Dopamine-3.0.0-preview.21.exe#/dl.7z",
-            "hash": "fe0e53c319c17b860b6a5f82a3c32d36bec06953cbad908bf299cab5984619a6"
+            "url": "https://github.com/digimezzo/dopamine/releases/download/v3.0.0-preview.23/Dopamine-3.0.0-preview.23.exe#/dl.7z",
+            "hash": "377d90d23c008c5a518dba96f44a816befac1334694c1a435b11d8cdefefc539"
         }
     },
     "extract_dir": "$PLUGINSDIR",

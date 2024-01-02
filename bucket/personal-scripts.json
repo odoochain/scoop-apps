@@ -1,10 +1,10 @@
 {
-    "version": "1701759204",
+    "version": "1703406286",
     "description": "Just some personal scripts",
     "homepage": "https://github.com/brian6932/personal-scripts",
     "url": "https://github.com/brian6932/personal-scripts/archive/refs/heads/main.zip",
     "license": "Unknown",
-    "hash": "8bdaf2e18a6ca9cc5a32891287c70c6532d8308d808393ad02551ffaa32ed383",
+    "hash": "b7a553b0645aca4249f7fb9a29d70fe0bfd2b5c330226a2b2690fb9181b14fcc",
     "pre_install": "Rename-Item \"$dir/personal-scripts-main\" \"$dir/bin\"",
     "env_add_path": "bin",
     "checkver": {

@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://s3.amazonaws.com/rstudio-ide-build/electron/windows/RStudio-2023.03.3-547.zip",
-            "hash": "bf05391ecb59e342947190f7e871e63d5b75986b7b28676382b225d268a83c01"
+            "hash": "637c83a34092911044b62243ac823779f9d29da468db5c265f0c978485f7f86a"
         }
     },
     "bin": [

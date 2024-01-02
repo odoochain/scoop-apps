@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/brian6932/Scoop/64bit-v2-v3-v4/schema.json",
-    "version": "20231210",
+    "version": "20231231",
     "description": "Video player based on MPlayer/mplayer2 (builds by shinchiro)",
     "homepage": "https://mpv.io",
     "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
@@ -13,16 +13,16 @@
     },
     "architecture": {
         "64bit-v3": {
-            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/64bit-v3/mpv-x86_64-v3-20231210-git-443c248.7z",
-            "hash": "sha1:228482d4ff79044a6c726a1c8387f58b2da79f3e"
+            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/64bit-v3/mpv-x86_64-v3-20231231-git-abc2a74.7z",
+            "hash": "sha1:5dfa5c2df85f19009b1b621ad7ec90164c8cb5d0"
         },
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/64bit/mpv-x86_64-20231210-git-443c248.7z",
-            "hash": "sha1:a1b2c79b2dca83e22bc43f999ed44e477ded9a99"
+            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/64bit/mpv-x86_64-20231231-git-abc2a74.7z",
+            "hash": "sha1:3c84a003a2c99936e9df0ec82144198bd9034c3b"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/32bit/mpv-i686-20231210-git-443c248.7z",
-            "hash": "sha1:641c07162ded2f3c40cbe94e3c9d9a99f3370def"
+            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/32bit/mpv-i686-20231231-git-abc2a74.7z",
+            "hash": "sha1:38953d89a9fa7cf9ba5dd97a96ccd7986d83044c"
         }
     },
     "pre_install": "Remove-Item \"$dir/updater.bat\"",

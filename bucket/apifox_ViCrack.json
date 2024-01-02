@@ -1,0 +1,47 @@
+{
+    "version": "2.4.9",
+    "description": "Apifox 是 API 文档、API 调试、API Mock、API 自动化测试一体化协作平台，定位 Postman + Swagger + Mock + JMeter。",
+    "homepage": "https://apifox.com",
+    "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/apifox.json",
+    "license": "Freeware",
+    "architecture": {
+        "32bit": {
+            "url": "https://cdn.apifox.cn/download/2.4.9/Apifox-windows-x86-2.4.9.exe#/dl.7z",
+            "hash": "7f896d2316eb1c0599b7d986af40ef0ab73c56a2b3d87fe29880c5ae2932e42c"
+        },
+        "64bit": {
+            "url": "https://cdn.apifox.cn/download/2.4.9/Apifox-2.4.9.exe#/dl.7z",
+            "hash": "d618b7fcb7f30baa005910880224c08257444eac35c45c459f8631cd5472ac1c"
+        }
+    },
+    "pre_install": [
+        "Get-Item \"$dir\\`$PLUGINSDIR\\app*.7z\" | Expand-7zipArchive -DestinationPath \"$dir\"",
+        "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
+    ],
+    "shortcuts": [
+        [
+            "Apifox.exe",
+            "Apifox",
+            "--user-data-dir=\"$dir\\UserData\""
+        ]
+    ],
+    "persist": "UserData",
+    "pre_uninstall": [
+        "Stop-Process -Name 'ApifoxAppAgent' -ErrorAction SilentlyContinue",
+        "Wait-Process -Name 'ApifoxAppAgent' -ErrorAction SilentlyContinue -Timeout 30"
+    ],
+    "checkver": {
+        "url": "https://apifox.com/help/app/changelog/",
+        "regex": "\\d\">([\\d.]+)<a href=\"#_"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://cdn.apifox.cn/download/$version/Apifox-windows-x86-$version.exe#/dl.7z"
+            },
+            "64bit": {
+                "url": "https://cdn.apifox.cn/download/$version/Apifox-$version.exe#/dl.7z"
+            }
+        }
+    }
+}

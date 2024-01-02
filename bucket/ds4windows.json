@@ -1,5 +1,5 @@
 {
-    "version": "3.3.0",
+    "version": "3.3.3",
     "description": "Allows to get the best experience while using a DualShock 4 on PC.",
     "homepage": "https://ryochan7.github.io/ds4windows-site/",
     "license": "MIT",
@@ -9,12 +9,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Ryochan7/DS4Windows/releases/download/v3.3.0/DS4Windows_3.3.0_x64.zip",
-            "hash": "3363d483f4b065be266966c7b973bda93982ecf332257bd47c3a336adf7d36ff"
+            "url": "https://github.com/Ryochan7/DS4Windows/releases/download/v3.3.3/DS4Windows_3.3.3_x64.zip",
+            "hash": "cf5619bcb51b82e4e1765276e9f67fb1e2d23dff968a653657acf35bafff8bf4"
         },
         "32bit": {
-            "url": "https://github.com/Ryochan7/DS4Windows/releases/download/v3.3.0/DS4Windows_3.3.0_x86.zip",
-            "hash": "50f6ec2a00a10cb034bf47858353b2af0ad534a17980c257ec57201dfa16f68c"
+            "url": "https://github.com/Ryochan7/DS4Windows/releases/download/v3.3.3/DS4Windows_3.3.3_x86.zip",
+            "hash": "5d2a287b6dd5e8da8f9d9ee058bce12880d3d5a90752aa6a3e5769baaacadca2"
         }
     },
     "extract_dir": "DS4Windows",

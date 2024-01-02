@@ -1,34 +1,34 @@
 {
-    "version": "0.7.1",
+    "version": "0.7.2",
     "description": "Kusion Configuration Language (KCL) is an open source constraint-based record and functional language.",
     "homepage": "https://kcl-lang.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kcl-lang/kcl/releases/download/v0.7.1/kclvm-v0.7.1-windows.zip",
-            "hash": "60fb6ab267e7329a0c4308fdff92b6cb614f4810e3964fdafb5669f3577932cd"
+            "url": "https://github.com/kcl-lang/cli/releases/download/v0.7.2/kcl-v0.7.2-windows-amd64.zip",
+            "hash": "cb949ebe76acbe29183590dc10d177887e80fe7f3b52d799dcb456652ec61db0"
+        },
+        "arm64": {
+            "url": "https://github.com/kcl-lang/cli/releases/download/v0.7.2/kcl-v0.7.2-windows-amd64.zip",
+            "hash": "cb949ebe76acbe29183590dc10d177887e80fe7f3b52d799dcb456652ec61db0"
         }
     },
-    "bin": [
-        "bin\\kclvm.exe",
-        "bin\\kclvm-cli.exe",
-        "bin\\kcl.exe",
-        "bin\\kcl-vet.exe",
-        "bin\\kcl-test.exe",
-        "bin\\kcl-plugin.exe",
-        "bin\\kcl-lint.exe",
-        "bin\\kcl-fmt.exe",
-        "bin\\kcl-doc.exe"
-    ],
+    "bin": "kcl.exe",
     "checkver": {
-        "url": "https://github.com/kcl-lang/kcl/releases/latest",
-        "regex": "/kcl-lang/kcl/releases/tag/v([^/]+?)\""
+        "url": "https://github.com/kcl-lang/cli/releases/latest",
+        "regex": "/kcl-lang/cli/releases/tag/v([^/]+?)\""
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kcl-lang/kcl/releases/download/v$version/kclvm-v$version-windows.zip"
+                "url": "https://github.com/kcl-lang/cli/releases/download/v$version/kcl-v$version-windows-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/kcl-lang/cli/releases/download/v$version/kcl-v$version-windows-amd64.zip"
             }
+        },
+        "hash": {
+            "url": "$baseurl/cli_$version_checksums.txt"
         }
     }
 }

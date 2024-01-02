@@ -12,6 +12,8 @@
 
 此仓库每天自动合并其他scoop仓库的更新
 
+注意：如果仓库描述文件过时或者安装等问题，请根据仓库根路径的app-contributor-list.csv到相应的仓库提交issues
+
 ## 特性
 
 - 每天更新
@@ -85,8 +87,8 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - Qv2ray/mochi
 - TheRandomLabs/Scoop-Bucket
 - ZvonimirSun/scoop-iszy
-- wangzq/scoop-bucket
 - kiennq/scoop-misc
+- wangzq/scoop-bucket
 - zhoujin7/tomato
 - akirco/aki-apps
 - wzv5/ScoopBucket
@@ -97,8 +99,8 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - naderi/scoop-bucket
 - amorphobia/siku
 - jonz94/scoop-sarasa-nerd-fonts
-- iquiw/scoop-bucket
 - DoveBoy/Apps
+- iquiw/scoop-bucket
 - ygguorun/scoop-bucket
 - NyaMisty/scoop_bucket_misty
 - 42wim/scoop-bucket
@@ -110,6 +112,7 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - AStupidBear/scoop-bear
 - starise/Scoop-Gaming
 - Velgus/Scoop-Portapps
+- aliesbelik/poldi
 - brian6932/dank-scoop
 - starise/Scoop-Confetti
 - Weidows-projects/scoop-3rd
@@ -117,7 +120,6 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - aoisummer/scoop-bucket
 - seumsc/scoop-seu
 - rivy/scoop-bucket
-- aliesbelik/poldi
 - SayCV/scoop-cvp
 - mo-san/scoop-bucket
 - AkariiinMKII/Scoop4kariiin
@@ -125,12 +127,12 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - ChinLong/scoop-customize
 - yuusakuri/scoop-bucket
 - Darkatse/Scoop-KanColle
+- AkinoKaede/maple
 - FlawlessCasual17/MyScoop
 - The-Simples/scoop-minecraft
 - MCOfficer/scoop-bucket
 - KnotUntied/scoop-fonts
 - beerpiss/scoop-bucket
 - HUMORCE/nuke
-- AkinoKaede/maple
 - hulucc/bucket
 - jingyu9575/scoop-jingyu9575

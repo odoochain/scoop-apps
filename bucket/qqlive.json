@@ -1,9 +1,9 @@
 {
-    "version": "11.84.9527.0",
+    "version": "11.85.2066.0",
     "homepage": "https://v.qq.com/",
     "license": "Freeware",
-    "url": "https://dldir1.qq.com/qqtv/TencentVideo11.84.9527.0.exe#/dl.7z",
-    "hash": "3c4f5c0cba1cbec368b07b572ae20343e03ff1a13173a6cb71256f98306aadef",
+    "url": "https://dldir1.qq.com/qqtv/TencentVideo11.85.2066.0.exe#/dl.7z",
+    "hash": "aed75d13767ed6dc35a26e5755982bfe81415bc61f71bdb7561ffea001a07471",
     "post_install": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$TEMP\" -Force -Recurse",
         "Copy-Item \"$dir\\QQLive.tpc\" \"$dir\\instok\""
