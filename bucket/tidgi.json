@@ -1,12 +1,12 @@
 {
-    "version": "0.8.0",
+    "version": "0.9.3",
     "description": "TidGi is an auto-git-backup, privatcy-in-mind, freely-deployed Tiddlywiki knowledgement Desktop app, with local REST API.",
     "homepage": "https://github.com/tiddly-gittly/TidGi-Desktop",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tiddly-gittly/TidGi-Desktop/releases/download/v0.8.0/Install-TidGi-Windows-x64.exe#/dl.7z",
-            "hash": "288edd025c204aceeb047a30ade3f884180f5fc8d929e3f8bec264274c9cafa3"
+            "url": "https://github.com/tiddly-gittly/TidGi-Desktop/releases/download/v0.9.3/Install-TidGi-Windows-x64.exe#/dl.7z",
+            "hash": "32720ac1a4fd7a56099b5d5072727a2a06dabaccb5edfe81243ee225dc5f1986"
         }
     },
     "pre_install": [

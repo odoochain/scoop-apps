@@ -1,5 +1,5 @@
 {
-    "version": "8.13.3",
+    "version": "8.13.11",
     "description": "Thousands of free mods and trainers for your favorite single-player PC games — all in one place",
     "license": {
         "identifier": "Freeware",
@@ -8,8 +8,8 @@
     "homepage": "https://www.wemod.com",
     "architecture": {
         "64bit": {
-            "url": "https://storage-cdn.wemod.com/app/releases/stable/WeMod-8.13.3-full.nupkg",
-            "hash": "b96fa5cde3619e14ba6f1d217d0b59dade91d947c34d6111f3f4998c89dbf2ed",
+            "url": "https://storage-cdn.wemod.com/app/releases/stable/WeMod-8.13.11-full.nupkg",
+            "hash": "eeeaedaaaee6e3047063f6db2f8126b9d2c20a3088ddecf692cc87a975b9dd5c",
             "shortcuts": [
                 [
                     "WeMod.exe",

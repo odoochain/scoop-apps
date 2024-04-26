@@ -1,9 +1,9 @@
 {
-    "version": "7.0.1.509",
+    "version": "7.3.1.529",
     "description": "InnoExtractor is a powerful application that helps you to unpack Inno Setup installers using InnoUnp technology.",
     "homepage": "http://www.havysoft.cl/innoextractor.html",
     "url": "http://www.havysoft.cl/download/IE_Install.zip",
-    "hash": "aaf4fa952ccac9829ade06aafd4e3b249f28711106b0145d78bdbbabc646d826",
+    "hash": "afd17a036318fa321db6226bba696219bd82b37dfe7fb9b3d4e2000ed98bdae4",
     "checkver": {
         "url": "http://www.havysoft.cl/descargar.html",
         "regex": "(\\d+\\.\\d+\\.\\d+\\.\\d+)"

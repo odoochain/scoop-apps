@@ -1,12 +1,12 @@
 {
-    "version": "1.13.3",
+    "version": "1.14.2",
     "description": "The kubectl plugin for cert-manager.",
     "homepage": "https://cert-manager.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.13.3/kubectl-cert_manager-windows-amd64.tar.gz",
-            "hash": "4c1985e55bb934245a259d5f662f4a0897b72b5d4f921d0d95000bca916bc488"
+            "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.14.2/kubectl-cert_manager-windows-amd64.tar.gz",
+            "hash": "85fa894595891709c0bbd366697371ae3da5f9444fb613029844126b44fdf18a"
         }
     },
     "bin": "kubectl-cert_manager.exe",

@@ -1,10 +1,10 @@
 {
-    "version": "1700702125",
+    "version": "1707364304",
     "description": "mpv script aimed at saving live streams and clipping online videos without encoding.",
     "homepage": "https://github.com/Sagnac/streamsave",
     "license": "Freeware",
-    "url": "https://github.com/Sagnac/streamsave/archive/refs/heads/master.zip",
-    "hash": "a7d7936c46f7580d465d8784e66dd071cbb1f75c7ced02b5e36e731cd076224d",
+    "url": "https://codeload.github.com/Sagnac/streamsave/zip/refs/heads/master#/_.zip",
+    "hash": "a7771fc2a0a6fbaa5ab70e7030abdab72c526626431cac67f76bdbb665ca2af5",
     "extract_dir": "streamsave-master",
     "pre_install": "Remove-Item \"$dir/README.md\"",
     "checkver": {
@@ -12,6 +12,6 @@
         "regex": "\\A(\\d+)\\Z"
     },
     "autoupdate": {
-        "url": "https://github.com/Sagnac/streamsave/archive/refs/heads/master.zip"
+        "url": "https://codeload.github.com/Sagnac/streamsave/zip/refs/heads/master#/_.zip"
     }
 }

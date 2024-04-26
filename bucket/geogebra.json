@@ -1,13 +1,13 @@
 {
-    "version": "6.0.817.0",
+    "version": "6.0.823.0",
     "description": "A dynamic mathematics software for education that brings together geometry, algebra, spreadsheets, graphing, statistics and calculus.",
     "homepage": "https://www.geogebra.org/",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.geogebra.org/license"
     },
-    "url": "https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Portable-6-0-817-0.zip",
-    "hash": "83c435e4b7a663186d3e84e1ff24ffb9d9ffc5ef4a1c121c5bf939caea9bae21",
+    "url": "https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Portable-6-0-823-0.zip",
+    "hash": "41a3348a9ed220c8d42bf7e5992169f0681efb8371f293a0b3e6fd37a6a97287",
     "bin": [
         [
             "GeoGebra.exe",

@@ -1,47 +1,30 @@
 {
-    "version": "1.54.83",
+    "version": "1.58.88",
     "description": "Concurrently chat with ChatGPT, Bing Chat, bard, Alpaca, Vincuna, Claude, ChatGLM, MOSS, iFlytek Spark, ERNIE and more, discover the best answers",
     "homepage": "http://chatall.ai",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sunner/ChatALL/releases/download/v1.54.83/ChatALL-1.54.83-win-x64.exe#/dl.7z",
-            "hash": "sha512:f320a400ded7a220046f78312ee80f37b7e9efc6be776675239cc8884136e94879b0defb668b7b41087b6c4efc8bff685994d63baa0592a23ee29780e079ce35",
+            "url": "https://github.com/sunner/ChatALL/releases/download/v1.58.88/ChatALL-1.58.88-win-x64.exe#/dl.7z",
+            "hash": "sha512:ef10835227ecd6498a043641f5de4af9c0185a803e78f3e6b55fb81478fdc0251d392ea5906e88745f73820f69f28378c019bf7a145e1791621fa70b0c1b7fd2",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
             ]
         },
-        "32bit": {
-            "url": "https://github.com/sunner/ChatALL/releases/download/v1.54.83/ChatALL-1.54.83-win.exe#/dl.7z",
-            "hash": "sha512:27fdfd284892e4cdf1d09d9fabf4c3c287bea443a53cf4e029f6a03a33913b371e03e360cc439dc12d72c5a84f33e84a26aedbbab654c51a01c11c7ac6572fcb",
-            "pre_install": [
-                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\" -Removal",
-                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
-            ]
-        },
         "arm64": {
-            "url": "https://github.com/sunner/ChatALL/releases/download/v1.54.83/ChatALL-1.54.83-win-arm64.exe#/dl.7z",
-            "hash": "sha512:7959b364139a40c65c74a15917ed0966c5bc05b802735fb34665f63fcc8d13e109ceee8ba816c71ae67ef7a6431ae96ee48bf8afa3f5f2c2f7a6a8ba7f1b545e",
+            "url": "https://github.com/sunner/ChatALL/releases/download/v1.58.88/ChatALL-1.58.88-win-arm64.exe#/dl.7z",
+            "hash": "sha512:6574718c710ee8cf93b77669ddd9bf65d41b67731487b55f40bdb9c75f376d1ee67fc09b4a0e74a5d85ebb5c25366bca93af38073045e4bf1fbce8340e9511ba",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\" -Removal",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
             ]
         }
     },
-    "installer": {
-        "script": [
-            "ensure \"$persist_dir\" | Out-Null",
-            "New-Item \"$env:APPDATA\\chatall\" -ItemType Junction -Target \"$persist_dir\" | Out-Null"
-        ]
-    },
-    "uninstaller": {
-        "script": "Remove-Item \"$env:APPDATA\\chatall\" -Recurse -Force -ErrorAction 'SilentlyContinue'"
-    },
     "shortcuts": [
         [
-            "ChatALL.exe",
-            "ChatALL"
+            "chatALL.exe",
+            "chatALL"
         ]
     ],
     "checkver": {
@@ -51,9 +34,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/sunner/ChatALL/releases/download/v$version/ChatALL-$version-win-x64.exe#/dl.7z"
-            },
-            "32bit": {
-                "url": "https://github.com/sunner/ChatALL/releases/download/v$version/ChatALL-$version-win.exe#/dl.7z"
             },
             "arm64": {
                 "url": "https://github.com/sunner/ChatALL/releases/download/v$version/ChatALL-$version-win-arm64.exe#/dl.7z"

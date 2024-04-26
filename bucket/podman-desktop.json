@@ -1,12 +1,12 @@
 {
-    "version": "1.6.3",
+    "version": "1.7.1",
     "description": "Manage Podman and other container engines from a single UI and tray",
     "homepage": "https://github.com/containers/podman-desktop",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/containers/podman-desktop/releases/download/v1.6.3/podman-desktop-1.6.3.exe#/dl.7z",
-            "hash": "e4ebdfacc06efecb93ed3dd21f098aee296b4b050881c1872a4cf7707c2bb38f",
+            "url": "https://github.com/containers/podman-desktop/releases/download/v1.7.1/podman-desktop-1.7.1.exe#/dl.7z",
+            "hash": "71c55afa7801a2839cf647257f9f5bc1cc93a129e1453dfcf77b6953f7f29687",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"

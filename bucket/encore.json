@@ -1,12 +1,12 @@
 {
-    "version": "1.29.6",
+    "version": "1.31.0",
     "description": "Encore is the end-to-end Backend Development Platform that lets you escape cloud complexity.",
     "homepage": "https://github.com/encoredev/encore",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://d2f391esomvqpi.cloudfront.net/encore-1.29.6-windows_amd64.tar.gz",
-            "hash": "a2d8a592c0151456c61291d3254a1919b52e379d21b4e5a980d7e1d0e23d0d59"
+            "url": "https://d2f391esomvqpi.cloudfront.net/encore-1.31.0-windows_amd64.tar.gz",
+            "hash": "279679cb19aae4dd71885bc82401459e8f2523ff6976ccbbc213e0364337cda2"
         }
     },
     "post_install": [

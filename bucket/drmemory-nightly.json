@@ -1,11 +1,11 @@
 {
-    "version": "2.6.19621",
+    "version": "2.6.19760",
     "description": "Dr. Memory is a memory monitoring tool capable of identifying memory-related programming errors.",
     "homepage": "https://drmemory.org/",
     "license": "LGPL-2.1-only",
-    "url": "https://github.com/DynamoRIO/drmemory/releases/download/cronbuild-2.6.19621/DrMemory-Windows-2.6.19621.zip",
-    "hash": "373ef20b45d80ae15a34c08595e794e8fbc4d02c1c171c6a5894cbef9244e8af",
-    "extract_dir": "DrMemory-Windows-2.6.19621",
+    "url": "https://github.com/DynamoRIO/drmemory/releases/download/cronbuild-2.6.19760/DrMemory-Windows-2.6.19760.zip",
+    "hash": "0a626582c04be4f0a61ff4ee8294b869d7011af545ead556584ce5865783c216",
+    "extract_dir": "DrMemory-Windows-2.6.19760",
     "architecture": {
         "64bit": {
             "bin": [

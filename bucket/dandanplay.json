@@ -1,12 +1,12 @@
 {
     "homepage": "https://www.dandanplay.com/",
     "description": "A free to use bangumi player with danmaku support",
-    "version": "14.4.1",
+    "version": "15.0.0",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://dandan.sakurateam.top/dandanplay-x64_14.4.1.exe",
-            "hash": "67b2dd9733de8de181769af4e6f94e8c08080d0b984061c9359944982f991d44"
+            "url": "https://dandan.sakurateam.top/dandanplay-x64_15.0.0.exe",
+            "hash": "80245ca9bb40a99f7f7fee6badf054f1dd74936400505ba9d5aba3fbeb27956d"
         }
     },
     "pre_install": [
@@ -25,7 +25,7 @@
     "installer": {
         "script": [
             "Start-Process \"$dir\\$fname\" \"/extract $dir\" -PassThru -NoNewWindow | Wait-Process",
-            "$subdir = (Get-ChildItem -Path \"$dir\" -Exclude \"*NET*\" -Directory).Name",
+            "$subdir = (Get-ChildItem -Path \"$dir\" -Exclude \"*NET*\",\"WebView2\" -Directory).Name",
             "movedir \"$dir\\$subdir\" \"$dir\" | Out-Null",
             "Remove-Item \"$dir\\$fname\",\"$dir\\decoder.dll\",\"$dir\\$subdir\" -Force -ErrorAction SilentlyContinue"
         ]
