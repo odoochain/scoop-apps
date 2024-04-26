@@ -1,0 +1,50 @@
+{
+    "version": "7.1.1-31",
+    "description": "Create, edit, compose, and convert 200+ bitmap image formats.",
+    "homepage": "https://imagemagick.org/",
+    "license": "ImageMagick",
+    "architecture": {
+        "64bit": {
+            "url": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.1-31-Q16-HDRI-x64-dll.exe",
+            "hash": "4787f382cf77896c6bfca95b60758591a1ff0811c1e5ac4d525d8f71a0e0dafb"
+        },
+        "32bit": {
+            "url": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.1-31-Q16-HDRI-x86-dll.exe",
+            "hash": "0f351c1f872c54be11cd987a82db2edcb573134eab5b3aad719ac0f14da84df2"
+        },
+        "arm64": {
+            "url": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.1-31-Q16-HDRI-arm64-dll.exe",
+            "hash": "926ed808739d3c08d933e02363c0446270d851bc0aa4e4c411a492f0a632567f"
+        }
+    },
+    "innosetup": true,
+    "env_set": {
+        "MAGICK_HOME": "$dir",
+        "MAGICK_CONFIGURE_PATH": "$dir",
+        "MAGICK_CODER_MODULE_PATH": "$dir\\modules\\coders"
+    },
+    "env_add_path": ".",
+    "notes": "'convert.exe' is deprecated in v7 (it also conflicts with the builtin Windows 'convert' utility). Use 'magick convert ...' instead.",
+    "checkver": {
+        "url": "https://imagemagick.org/archive/binaries/digest.rdf",
+        "reverse": true,
+        "regex": "ImageMagick-([\\d.-]+)-Q16-HDRI-x64-dll\\.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://imagemagick.org/archive/binaries/ImageMagick-$version-Q16-HDRI-x64-dll.exe"
+            },
+            "32bit": {
+                "url": "https://imagemagick.org/archive/binaries/ImageMagick-$version-Q16-HDRI-x86-dll.exe"
+            },
+            "arm64": {
+                "url": "https://imagemagick.org/archive/binaries/ImageMagick-$version-Q16-HDRI-arm64-dll.exe"
+            }
+        },
+        "hash": {
+            "mode": "rdf",
+            "url": "https://imagemagick.org/archive/binaries/digest.rdf"
+        }
+    }
+}

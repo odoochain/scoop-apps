@@ -1,0 +1,25 @@
+{
+    "version": "123.0.6312.133",
+    "description": "Thorium SSE3. The fastest browser on Earth",
+    "homepage": "https://thorium.rocks/",
+    "license": "BSD-3-Clause",
+    "changelog": "https://github.com/Alex313031/Thorium-Win/releases",
+    "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M123.0.6312.133/Thorium_SSE3_123.0.6312.133.zip",
+    "hash": "90498c885f4ec21badd948cb84f81a846bf853de58551248df94c9dd9b074fd8",
+    "persist": "USER_DATA",
+    "bin": "bin\\thorium.exe",
+    "shortcuts": [
+        [
+            "bin\\thorium.exe",
+            "Thorium",
+            "--user-data-dir=\"$dir\\USER_DATA\" --allow-outdated-plugins --disable-logging --disable-breakpad"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/Alex313031/Thorium-Win/releases",
+        "regex": "/Alex313031/Thorium-Win/tree/M([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_SSE3_$version.zip"
+    }
+}

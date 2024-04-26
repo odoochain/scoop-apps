@@ -1,5 +1,5 @@
 {
-    "version": "1.12.0",
+    "version": "1.12.4",
     "description": "Multi-platform transparent client-side encryption of files in the cloud",
     "homepage": "https://cryptomator.org",
     "license": "GPL-3.0-only",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cryptomator/cryptomator/releases/download/1.12.0/Cryptomator-1.12.0-x64.msi",
-            "hash": "ffce83e93779974320b4298aafccd40a5105666b1ca79b643cd2d9297bda8720"
+            "url": "https://github.com/cryptomator/cryptomator/releases/download/1.12.4/Cryptomator-1.12.4-x64.msi",
+            "hash": "939809d8bd0e8a31be311bd390c0d70c00196e22c83493a085285d72460474f4"
         }
     },
     "extract_dir": "Cryptomator",

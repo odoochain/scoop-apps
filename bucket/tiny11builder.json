@@ -1,0 +1,28 @@
+{
+    "version": "0.2024.04.25.77c74f5",
+    "description": "Scripts to build a trimmed-down Windows 11 image.",
+    "homepage": "https://github.com/ntdevlabs/tiny11builder",
+    "license": "Unknown",
+    "notes": [
+        "Download Windows 11 from UUPDump or from the Microsoft website (https://www.microsoft.com/software-download/windows11)",
+        "UUP dump website: (https://www.uupdump.cn/) or (https://uupdump.net/)."
+    ],
+    "url": "https://github.com/ntdevlabs/tiny11builder/archive/77c74f524d204e7c55ad8fe64c2297ebe5e8a30f.zip",
+    "hash": "4321cfcf7ec0668366dbfaeeace9d80e54adb5e1df859689fcde267ef4941f93",
+    "extract_dir": "tiny11builder-77c74f524d204e7c55ad8fe64c2297ebe5e8a30f",
+    "shortcuts": [
+        [
+            "tiny11 creator.bat",
+            "tiny11 creator"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/ntdevlabs/tiny11builder/commits/main.atom",
+        "regex": "(?s)>(\\d+)-(\\d+)-(\\d+)T.*?/(?<sha>(?<short>[0-9a-f]{7})[0-9a-f]{33})",
+        "replace": "0.${1}.${2}.${3}.${short}"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ntdevlabs/tiny11builder/archive/$matchSha.zip",
+        "extract_dir": "tiny11builder-$matchSha"
+    }
+}

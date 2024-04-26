@@ -2,15 +2,15 @@
     "homepage": "https://www.uwe-sieber.de/usbtreeview_e.html",
     "description": "Informations from the Windows Device Management are collected and matched with the found USB devices and child devices",
     "license": "Freeware",
-    "version": "4.0.0",
+    "version": "4.2.2",
     "architecture": {
         "64bit": {
             "url": "https://www.uwe-sieber.de/files/UsbTreeView_x64.zip",
-            "hash": "e1162fb641947346259918fc62090b32933baeef365e42e0d29f075f44f75a0a"
+            "hash": "aee1c396fc0dac52cf02ccb6e7d9c98aeeafe5084e9714baa7fc54dfb47e28bf"
         },
         "32bit": {
             "url": "https://www.uwe-sieber.de/files/UsbTreeView_Win32.zip",
-            "hash": "06b9c13daea1a7fa9a38ebc2436ff97f67d730e02f77cb4a6ff649dc5ec3c90a"
+            "hash": "1aedc7e51e4d07f719346b0f3d650cc360d0d9913a9abb88cb89645bffaefc84"
         }
     },
     "shortcuts": [

@@ -1,0 +1,37 @@
+{
+    "version": "2.0.13",
+    "description": "AutoHotkey 2. The ultimate automation scripting language for Windows.",
+    "homepage": "https://www.autohotkey.com/",
+    "license": "GPL-2.0-or-later",
+    "changelog": "https://www.autohotkey.com/docs/v2/ChangeLog.htm",
+    "url": "https://www.autohotkey.com/download/2.0/AutoHotkey_2.0.13.zip",
+    "hash": "a7db865b054314d253293a1f427d3a155da5164060804aac431020e26a40e1ad",
+    "architecture": {
+        "64bit": {
+            "bin": [
+                [
+                    "autohotkey64.exe",
+                    "AutoHotkey 2"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": [
+                [
+                    "autohotkey32.exe",
+                    "AutoHotkey 2"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "url": "https://www.autohotkey.com/download/",
+        "regex": "Latest Stable Version: <span class=\"curver\">([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.autohotkey.com/download/2.0/AutoHotkey_$version.zip",
+        "hash": {
+            "url": "https://www.autohotkey.com/download/2.0/AutoHotkey_$version.zip.sha256"
+        }
+    }
+}

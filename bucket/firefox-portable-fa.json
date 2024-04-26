@@ -1,0 +1,54 @@
+{
+    "version": "125.0.2",
+    "description": "Popular open source web browser.",
+    "homepage": "https://www.mozilla.org/firefox/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/125.0.2/win64/fa-IR/Firefox%20Setup%20125.0.2.exe#/dl.7z",
+            "hash": "sha512:3d87c0b9cfccd93dacc4bf2fc236803f2284aa8793f6683a9f794ac83613a686fd4760908b377517d591bf628e2e4156c89ecda4673ebfcc2154c48c9e4d20a0"
+        },
+        "32bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/125.0.2/win32/fa-IR/Firefox%20Setup%20125.0.2.exe#/dl.7z",
+            "hash": "sha512:6f6dab5c68d311a4d74b22cc0a8f7740a68ebc5d46c0fac55a8fe9081497e1fbcd4e9984e2b310534233a3e4a5fed73209a6bcf4fcf9f660ebbfd4a8593553fa"
+        }
+    },
+    "extract_dir": "core",
+    "bin": [
+        [
+            "firefox.exe",
+            "firefox-fa",
+            "-profile \"$dir\\profile\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox (fa)",
+            "-profile \"$dir\\profile\""
+        ]
+    ],
+    "persist": "Profile",
+    "checkver": {
+        "url": "https://product-details.mozilla.org/1.0/firefox_versions.json",
+        "jsonpath": "$.LATEST_FIREFOX_VERSION"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win64/fa-IR/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64/fa/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win32/fa-IR/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win32/fa/$basename"
+                }
+            }
+        }
+    }
+}

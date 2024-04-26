@@ -1,12 +1,12 @@
 {
-    "version": "5.0.8800.35722",
+    "version": "5.0.8845.26141",
     "description": "Third-party industry program for EVE Online",
     "homepage": "http://eveiph.github.io/",
     "license": {
         "identifier": "Unknown",
         "url": "https://github.com/EVEIPH/EVE-IPH-Update-Program/raw/master/Licence.txt"
     },
-    "hash": "681b98e2b13513a3238d473168a3f38e0453544d3ac1a585f4fdfe540536439a",
+    "hash": "18299dcb99ca501e65ee38959190293a48352ece12bc4e20150ce43a8ecc4e79",
     "url": "https://github.com/EVEIPH/LatestFiles/raw/master/EVEIPH%20Binaries.zip",
     "bin": "EVE Isk per Hour.exe",
     "shortcuts": [

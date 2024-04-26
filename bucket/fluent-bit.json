@@ -1,18 +1,18 @@
 {
-    "version": "2.2.2",
+    "version": "3.0.2",
     "description": "A log processor and forwarder which allows you to collect data/logs from different sources, unify and send them to multiple destinations.",
     "homepage": "https://fluentbit.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://fluentbit.io/releases/2.2/fluent-bit-2.2.2-win64.zip",
-            "hash": "fa8a1166665eae2fc0455e2ac10103f9759443ba6417fcb7480850d5bfca8fe8",
-            "extract_dir": "fluent-bit-2.2.2-win64"
+            "url": "https://fluentbit.io/releases/3.0/fluent-bit-3.0.2-win64.zip",
+            "hash": "4ff9b7216f371fc3e421d5d15fc70cc667cd4afb38d32281a52e878c029ae502",
+            "extract_dir": "fluent-bit-3.0.2-win64"
         },
         "32bit": {
-            "url": "https://fluentbit.io/releases/2.2/fluent-bit-2.2.2-win32.zip",
-            "hash": "1b699d76f2fc31e94fd783b7219b0d34794586c489abb3df58396583fe44dee7",
-            "extract_dir": "fluent-bit-2.2.2-win32"
+            "url": "https://fluentbit.io/releases/3.0/fluent-bit-3.0.2-win32.zip",
+            "hash": "5881b26db5aae5c0f1d5033f2f98f8f7547a8a3310da228792268dde184ca648",
+            "extract_dir": "fluent-bit-3.0.2-win32"
         }
     },
     "bin": "bin\\fluent-bit.exe",

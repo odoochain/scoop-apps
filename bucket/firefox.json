@@ -1,5 +1,5 @@
 {
-    "version": "122.0.1",
+    "version": "125.0.2",
     "description": "Popular open source web browser.",
     "homepage": "https://www.mozilla.org/firefox/",
     "license": "MPL-2.0",
@@ -11,16 +11,16 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/122.0.1/win64/en-US/Firefox%20Setup%20122.0.1.exe#/dl.7z",
-            "hash": "sha512:5ed404beb343c55cedd8d2506ab432594c07c03c45133b6f796699a00fefea21bdad46b79bcb9828fb5e19294cd75e3819799c93bf538391b249c6d379f3f716"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/125.0.2/win64/en-US/Firefox%20Setup%20125.0.2.exe#/dl.7z",
+            "hash": "sha512:b525c28f4254aaa3d68e6779a17a332934f68fdc9fe5c2e3d116c7dece1e36e22f29cd1c92f9df5129a5c03e15e0f55dd2e9ce36e0db12f4c89641222ac4d7fb"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/122.0.1/win32/en-US/Firefox%20Setup%20122.0.1.exe#/dl.7z",
-            "hash": "sha512:83d3fbc9f7ff69d085af98286ad9b09ea07d2a079565c90e282b15a15f0c84d0d1b01f7205aee34e2f280f537a70a5706d38bcfaa04aa687dd489c6b197f98bb"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/125.0.2/win32/en-US/Firefox%20Setup%20125.0.2.exe#/dl.7z",
+            "hash": "sha512:1a6e651bafcd05ca40bc8ef224aa81b632a6ae8df07d829b929479951e82da2f64ca6f80fe726fac9c80208904fc377b43f31437ce62cbc3796c604f6e8a8484"
         },
         "arm64": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/122.0.1/win64-aarch64/en-US/Firefox%20Setup%20122.0.1.exe#/dl.7z",
-            "hash": "sha512:b5cf930ff983a81edad53d7bff1d062ffdfdc6fd5fc00684824e191484dd5d2333798aaec8fcf0c021ffb49a31dd303e92fc719bb189cb05aa101c0de9dae3ed"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/125.0.2/win64-aarch64/en-US/Firefox%20Setup%20125.0.2.exe#/dl.7z",
+            "hash": "sha512:d8a3741a9c6786db65c1ff3d61deb1739a5a6e8282b1b9194011ee19c5b859a59ed140922dc4ac9800ab675fa22d491101a132db2bae4aa8a3e077431da3669f"
         }
     },
     "extract_dir": "core",

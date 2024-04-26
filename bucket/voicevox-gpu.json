@@ -1,10 +1,10 @@
 {
     "##": "The manifest is from https://github.com/h-takesg/h-takesg_bucket",
-    "version": "0.15.2",
+    "version": "0.18.1",
     "homepage": "https://voicevox.hiroshiba.jp/",
     "license": "LGPL-3.0-only",
-    "url": "https://github.com/VOICEVOX/voicevox/releases/download/0.15.2/voicevox-windows-directml-0.15.2.zip",
-    "hash": "4bec9508199a51dd205c104c434b347b1ca01f0006daac4ec2b8bb58777b748a",
+    "url": "https://github.com/VOICEVOX/voicevox/releases/download/0.18.1/voicevox-windows-directml-0.18.1.zip",
+    "hash": "4b9dce59782fc1b2e24c126904ab0c61f5ec0c3d7d6d7cc35c9759cd18774c8c",
     "bin": "VOICEVOX.exe",
     "extract_dir": "VOICEVOX",
     "shortcuts": [

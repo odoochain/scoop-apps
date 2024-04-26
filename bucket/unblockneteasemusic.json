@@ -1,0 +1,41 @@
+{
+    "version": "0.27.6",
+    "description": "Revive unavailable songs for Netease Cloud Music (Refactored & Enhanced version)",
+    "homepage": "https://github.com/UnblockNeteaseMusic/server",
+    "license": {
+        "identifier": "LGPL-3.0-only",
+        "url": "https://github.com/UnblockNeteaseMusic/server/blob/enhanced/COPYING"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/UnblockNeteaseMusic/server/releases/download/v0.27.6/unblockneteasemusic-win-x64.exe#/unblockneteasemusic.exe",
+            "hash": "b3bc29e6aa411782d697a5a70e578d7d83ed7ab9e0605d21c652c651b1521e07"
+        },
+        "arm64": {
+            "url": "https://github.com/UnblockNeteaseMusic/server/releases/download/v0.27.6/unblockneteasemusic-win-arm64.exe#/unblockneteasemusic.exe",
+            "hash": "5224b6b597c8459d3ae9a62c2693751203545966675ae21c6f4eaaa03e609b9a"
+        }
+    },
+    "bin": "unblockneteasemusic.exe",
+    "shortcuts": [
+        [
+            "unblockneteasemusic.exe",
+            "UnblockNeteaseMusic"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/UnblockNeteaseMusic/server/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "v([\\w.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/UnblockNeteaseMusic/server/releases/download/v$version/unblockneteasemusic-win-x64.exe#/unblockneteasemusic.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/UnblockNeteaseMusic/server/releases/download/v$version/unblockneteasemusic-win-arm64.exe#/unblockneteasemusic.exe"
+            }
+        }
+    }
+}

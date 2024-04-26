@@ -1,16 +1,16 @@
 {
-    "version": "1.6.2",
+    "version": "1.6.4",
     "description": "CLI tool for Smart Contract error tracking, monitoring and alerting.",
     "homepage": "https://github.com/Tenderly/tenderly-cli",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Tenderly/tenderly-cli/releases/download/v1.6.2/tenderly_1.6.2_Windows_amd64.tar.gz",
-            "hash": "dfd278021a4b049e8ee52b661b80ea118f3bda8a5aa7481fad7d385adbc9c7e3"
+            "url": "https://github.com/Tenderly/tenderly-cli/releases/download/v1.6.4/tenderly_1.6.4_Windows_amd64.tar.gz",
+            "hash": "1a7f0a3255a2590bedb53ba18081b62606e3d20990ca2deed2412466bed6de60"
         },
         "32bit": {
-            "url": "https://github.com/Tenderly/tenderly-cli/releases/download/v1.6.2/tenderly_1.6.2_Windows_386.tar.gz",
-            "hash": "11613af64fe704299dc56def3d3a5903001cd9be14d7698fb4331d9b855591f2"
+            "url": "https://github.com/Tenderly/tenderly-cli/releases/download/v1.6.4/tenderly_1.6.4_Windows_386.tar.gz",
+            "hash": "8d3d39d2627095382e82c1f88aa5149dc70db87698ac2b5e387b50645bcb34d0"
         }
     },
     "bin": "tenderly.exe",

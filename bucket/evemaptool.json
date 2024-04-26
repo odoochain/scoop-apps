@@ -1,10 +1,10 @@
 {
-    "version": "1.30",
+    "version": "1.33",
     "homepage": "https://github.com/Slazanger/SMT",
     "license": "MIT",
     "description": "Slazanger's Eve Map Tool",
-    "url": "https://github.com/Slazanger/SMT/releases/download/SMT_130/SMT_1.30.zip",
-    "hash": "d899ebca45654d8852d68d42257a71b2b9f41d66e10a0ca9ecc08494e1822825",
+    "url": "https://github.com/Slazanger/SMT/releases/download/SMT_133/SMT_1.33.zip",
+    "hash": "1b00a1fc9704e34d35a1d4d6e199bcd30da7751dbab80abb4b1bb86180a5e3ee",
     "bin": "SMT.exe",
     "shortcuts": [
         [

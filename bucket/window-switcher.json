@@ -1,20 +1,20 @@
 {
-    "version": "1.5.0",
+    "version": "1.8.0",
     "description": "Switch windows of same app with alt + ` on Windows.",
     "homepage": "https://github.com/sigoden/window-switcher",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sigoden/window-switcher/releases/download/v1.5.0/window-switcher-v1.5.0-windows-64.zip",
-            "hash": "4a8ca8aa61ff4064a8eb5e54283b5dbc8a217353dacb28a79fb4a817964925c4"
+            "url": "https://github.com/sigoden/window-switcher/releases/download/v1.8.0/window-switcher-v1.8.0-windows-64.zip",
+            "hash": "32a96a4878423dc5ee53bb94e94ef25b6fce759b408844b844c20a91197aa2b0"
         },
         "32bit": {
-            "url": "https://github.com/sigoden/window-switcher/releases/download/v1.5.0/window-switcher-v1.5.0-windows-32.zip",
-            "hash": "4bbade6634a45dde3ab526d1dd82ec69fdf77c585286b453298300d0f9d7b8e0"
+            "url": "https://github.com/sigoden/window-switcher/releases/download/v1.8.0/window-switcher-v1.8.0-windows-32.zip",
+            "hash": "46fc0f4fd64094b423717dfa1188fe6ed48b703b163bcefea681c96aa55dbb41"
         },
         "arm64": {
-            "url": "https://github.com/sigoden/window-switcher/releases/download/v1.5.0/window-switcher-v1.5.0-windows-arm.zip",
-            "hash": "364102ff4272c58fb9b43c959a7423a522b0f0a6b5580562778240a2a107a204"
+            "url": "https://github.com/sigoden/window-switcher/releases/download/v1.8.0/window-switcher-v1.8.0-windows-arm64.zip",
+            "hash": "0a0be47e2ea0f1776c6657603a6fca973c4c38e1161850f1a3ae5d695c41faa7"
         }
     },
     "shortcuts": [
@@ -33,7 +33,7 @@
                 "url": "https://github.com/sigoden/window-switcher/releases/download/v$version/window-switcher-v$version-windows-32.zip"
             },
             "arm64": {
-                "url": "https://github.com/sigoden/window-switcher/releases/download/v$version/window-switcher-v$version-windows-arm.zip"
+                "url": "https://github.com/sigoden/window-switcher/releases/download/v$version/window-switcher-v$version-windows-arm64.zip"
             }
         }
     }

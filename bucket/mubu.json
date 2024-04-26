@@ -1,10 +1,10 @@
 {
     "homepage": "https://mubu.com/apps",
     "description": "Mubu - Mind mapping tool",
-    "version": "3.7.3",
+    "version": "4.0.2",
     "license": "Freeware",
-    "url": "https://assets.mubu.com/client/Mubu-3.7.3.exe#/mubu-3.7.3.7z",
-    "hash": "dac7470975ed11fa529cbeed979da3741a180a1c7379ef0c0320263035085e7c",
+    "url": "https://assets.mubu.com/client/Mubu-4.0.2.exe#/mubu-4.0.2.7z",
+    "hash": "0dfdcec5c5346009a45b6bb5e48c50ce544a6cb53b7d4dc3f63ec33a9ece32b9",
     "extract_dir": "$PLUGINSDIR",
     "installer": {
         "script": [

@@ -1,0 +1,59 @@
+{
+    "version": "115.10.0",
+    "description": "Extended Support Release of Firefox: the popular open source web browser.",
+    "homepage": "https://www.mozilla.org/en-US/firefox/organizations/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/115.10.0esr/win64/en-US/Firefox%20Setup%20115.10.0esr.exe#/dl.7z",
+            "hash": "sha512:af065a5cdf179e5b3fc0848a1e747c3df8027d8f7a48b16a48904adadf7333f68bd7df584795770fabef85359360f22327690701830eedf89f0a4c6e3d5bdb84"
+        },
+        "32bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/115.10.0esr/win32/en-US/Firefox%20Setup%20115.10.0esr.exe#/dl.7z",
+            "hash": "sha512:cc9d9629b5bd597162519601b6418f2571073533c749147fc6a69464934acfd4fe5e864c3a8d5cc8653a003c045e5f55da932a81d5e2db872081a684374e6de7"
+        }
+    },
+    "extract_dir": "core",
+    "bin": [
+        [
+            "firefox.exe",
+            "firefox",
+            "-profile \"$dir\\profile\""
+        ],
+        [
+            "firefox.exe",
+            "firefox-esr",
+            "-profile \"$dir\\profile\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox ESR",
+            "-profile \"$dir\\profile\""
+        ]
+    ],
+    "persist": "profile",
+    "checkver": {
+        "url": "https://aus5.mozilla.org/update/6/Firefox/78.0/_/WINNT_x86_64-msvc-x64/en-US/esr/_/_/_/_/update.xml",
+        "xpath": "/updates/update/@appVersion"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$versionesr/win64/en-US/Firefox%20Setup%20$versionesr.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$versionesr/SHA512SUMS",
+                    "regex": "$sha512\\s+win64/en-US/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$versionesr/win32/en-US/Firefox%20Setup%20$versionesr.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$versionesr/SHA512SUMS",
+                    "regex": "$sha512\\s+win32/en-US/$basename"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "version": "3.3.3",
+    "description": "跨平台桌面端视频资源播放器,免费高颜值.",
+    "homepage": "https://github.com/Hiram-Wong/ZyPlayer",
+    "license": {
+        "identifier": "MIT license",
+        "url": "https://github.com/Hiram-Wong/ZyPlayer/blob/main/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Hiram-Wong/ZyPlayer/releases/download/v3.3.3/zyplayer-win-3.3.3-x64.exe#/dl.7z",
+            "hash": "28de8d93c10e1799c9c205b44b3506e54ef92b1c0a117f617cfd5413408e3673",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\" -Recurse"
+            ]
+        },
+        "32bit": {
+            "url": "https://github.com/Hiram-Wong/ZyPlayer/releases/download/v3.3.3/zyplayer-win-3.3.3-ia32.exe#/dl.7z",
+            "hash": "1c2fed091df6b9413494ce12ceec7011a97629511e7b25fedbfe8e42d9c79a26",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\" -Recurse"
+            ]
+        },
+        "arm64": {
+            "url": "https://github.com/Hiram-Wong/ZyPlayer/releases/download/v3.3.3/zyplayer-win-3.3.3-arm64.exe#/dl.7z",
+            "hash": "aea57eed519105c27631e2575b10c1ef695226512883b4fb28dead48e65ea0d3",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\" -Recurse"
+            ]
+        }
+    },
+    "installer": {
+        "script": [
+            "ensure \"$persist_dir\" | Out-Null",
+            "New-Item \"$env:APPDATA\\zyplayer\" -ItemType Junction -Target \"$persist_dir\" | Out-Null"
+        ]
+    },
+    "uninstaller": {
+        "script": "Remove-Item \"$env:APPDATA\\zyplayer\" -Recurse -Force -ErrorAction 'SilentlyContinue'"
+    },
+    "shortcuts": [
+        [
+            "zyplayer.exe",
+            "ZYPlayer"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/Hiram-Wong/ZyPlayer/releases",
+        "regex": "/releases/tag/v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Hiram-Wong/ZyPlayer/releases/download/v$version/zyplayer-win-$version-x64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/Hiram-Wong/ZyPlayer/releases/download/v$version/zyplayer-win-$version-ia32.exe#/dl.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/Hiram-Wong/ZyPlayer/releases/download/v$version/zyplayer-win-$version-arm64.exe#/dl.7z"
+            }
+        }
+    }
+}

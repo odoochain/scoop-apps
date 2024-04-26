@@ -1,13 +1,13 @@
 {
-    "version": "1.30.83",
+    "version": "1.33.90",
     "description": "Hybrid IDE and text editor by JetBrains.",
     "homepage": "https://www.jetbrains.com/fleet/",
     "license": "Unknown",
     "notes": "Currently using preview as RC, until proper RC release is done",
     "architecture": {
         "64bit": {
-            "url": "https://download.jetbrains.com/fleet/installers/windows_x64/Fleet-1.30.83.zip",
-            "hash": "8f89383d5f7ec8ae358f513f69665469c615ee1b0a024f8a75d359756e63ff2e"
+            "url": "https://download.jetbrains.com/fleet/installers/windows_x64/Fleet-1.33.90.zip",
+            "hash": "84b9962165f53fc8898f3bfb371aca05b1054e997f68a65773ab7f6dfe5b6005"
         }
     },
     "shortcuts": [

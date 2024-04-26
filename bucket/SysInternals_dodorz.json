@@ -5,9 +5,9 @@
         "identifier": "Freeware",
         "url": "https://docs.microsoft.com/en-us/sysinternals/license-terms"
     },
-    "version": "2023.12.7",
+    "version": "2024.2.13",
     "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
-    "hash": "72f0e731416b1c4407a991e4257d830c316c86079524902528869c5fd1ad1d9c",
+    "hash": "fa5548efe12a2ea78c726971b6ac24ec9c2c1686a557efd3ff9476398ecccbae",
     "checkver": {
         "script": [
             "$resp = Invoke-WebRequest 'https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?board=Sysinternals-Blog'",

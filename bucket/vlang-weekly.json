@@ -1,0 +1,17 @@
+{
+    "version": "2024.17",
+    "description": "Simple, fast, safe, compiled. For developing maintainable software",
+    "homepage": "https://vlang.io/",
+    "license": "MIT",
+    "url": "https://github.com/vlang/v/releases/download/weekly.2024.17/v_windows.zip",
+    "hash": "bd5057ab950e865f20248701df00cca05ff5d5bcdb48333f1599a4e0e29fad33",
+    "extract_dir": "v",
+    "bin": "v.exe",
+    "checkver": {
+        "github": "https://github.com/vlang/v",
+        "regex": "/releases/tag/weekly\\.([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/vlang/v/releases/download/weekly.$version/v_windows.zip"
+    }
+}

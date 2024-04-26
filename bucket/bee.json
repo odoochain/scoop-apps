@@ -1,15 +1,15 @@
 {
     "homepage": "https://swarm.ethereum.org/",
     "description": "A Swarm client implemented in Go",
-    "version": "1.18.2",
+    "version": "2.0.1",
     "license": "BSD-3-Clause",
     "suggest": {
         "sudo": "main/gsudo"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ethersphere/bee/releases/download/v1.18.2/bee-windows-amd64.zip",
-            "hash": "da726eaaa8abfa16d5bb176a825e86c646a5a24978f33f66ddae49826e57b5dc"
+            "url": "https://github.com/ethersphere/bee/releases/download/v2.0.1/bee-windows-amd64.zip",
+            "hash": "761c3be78264f878e34537edc5d88569fea742d5f3ccaa475db7308ce1e999b8"
         }
     },
     "installer": {

@@ -1,15 +1,15 @@
 {
-    "version": "135",
+    "version": "137",
     "description": "Multi-system emulator focused on accuracy and preservation",
     "homepage": "https://ares-emulator.github.io/",
     "license": "ISC",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ares-emulator/ares/releases/download/v135/ares-windows.zip",
-            "hash": "ff9084c9afed44e369a06f54392df412c8ee792de033ba147b2fe72bb10a21c0"
+            "url": "https://github.com/ares-emulator/ares/releases/download/v137/ares-windows.zip",
+            "hash": "f94f715db667a6aba99a504dc7dfcd28eeebacb80cfdd62143def87b64febf6a"
         }
     },
-    "extract_dir": "ares-v135",
+    "extract_dir": "ares-v137",
     "pre_install": "if (!(Test-Path \"$persist_dir\\settings.bml\")) { New-Item -ItemType File \"$dir\\settings.bml\" | Out-Null }",
     "bin": "ares.exe",
     "shortcuts": [

@@ -1,0 +1,54 @@
+{
+    "version": "126.0b4",
+    "description": "Beta builds of Firefox: the popular open source web browser.",
+    "homepage": "https://www.mozilla.org/en-US/firefox/beta/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/126.0b4/win64/en-US/Firefox%20Setup%20126.0b4.exe#/dl.7z",
+            "hash": "sha512:4a468460b84023c1af6fcbc123cc236a64cce1fb772bed48894a8ae282910338ee3cc4b795410ad061fd453dcfbf4a9dd051b3b6674c3885dd58912190fb1340"
+        },
+        "32bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/126.0b4/win32/en-US/Firefox%20Setup%20126.0b4.exe#/dl.7z",
+            "hash": "sha512:fb2c149062d228ae40c14fe91502234ad81bf8803d5b28a120def996e397baedacfb9b6cc0bfbe43ee4153a0429dbdbe0a592257adaab1378faccbe88bbe6405"
+        }
+    },
+    "extract_dir": "core",
+    "bin": [
+        [
+            "firefox.exe",
+            "firefox-beta",
+            "-profile \"$dir\\profile\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox Beta",
+            "-profile \"$dir\\profile\""
+        ]
+    ],
+    "persist": "profile",
+    "checkver": {
+        "url": "https://www.mozilla.org/de/firefox/all/",
+        "regex": "<option value=\"desktop_beta\">([\\db.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win64/en-US/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64/en-US/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win32/en-US/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win32/en-US/$basename"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "version": "0.1.0-2024.04.22",
+    "description": "MoonBit is an end-to-end programming language toolchain for cloud and edge computing using WebAssembly.",
+    "homepage": "https://www.moonbitlang.com/",
+    "license": "Unknown",
+    "url": [
+        "https://cli.moonbitlang.com/windows/moon.exe",
+        "https://cli.moonbitlang.com/windows/moonc.exe",
+        "https://cli.moonbitlang.com/windows/moondoc.exe",
+        "https://cli.moonbitlang.com/windows/moonfmt.exe",
+        "https://cli.moonbitlang.com/windows/moonrun.exe"
+    ],
+    "hash": [
+        "3807ffa17be3d1a2a042b0869455955685d5250d57eaef53e59f45fa92a195d2",
+        "226620659f11c1a8fa6ba48677447e295fdc0dcd32fe351e6a3332a33ba23ebd",
+        "fe50385493d2721f76d72e49f59def5a8f8d5dcd77d471e4daeb04621967381b",
+        "5941794aa8bc534b175a67740c64f44b9c2768813e0891d950ba4e81c2e92937",
+        "aced841a4ddb9cca9fca2832bf63f34eb0186979298ea32a3679f5214b64be65"
+    ],
+    "bin": [
+        "moon.exe",
+        "moonc.exe",
+        "moondoc.exe",
+        "moonfmt.exe",
+        "moonrun.exe"
+    ],
+    "checkver": {
+        "script": "return Get-Date \"$((iwr -Method HEAD https://cli.moonbitlang.com/windows/moon.exe).Headers.'Last-Modified')\" -Format 'yyyy.MM.dd'",
+        "regex": "(?<date>[\\d.]+)",
+        "replace": "0.1.0-${date}"
+    },
+    "autoupdate": {
+        "url": [
+            "https://cli.moonbitlang.com/windows/moon.exe",
+            "https://cli.moonbitlang.com/windows/moonc.exe",
+            "https://cli.moonbitlang.com/windows/moondoc.exe",
+            "https://cli.moonbitlang.com/windows/moonfmt.exe",
+            "https://cli.moonbitlang.com/windows/moonrun.exe"
+        ]
+    }
+}

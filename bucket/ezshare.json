@@ -1,9 +1,9 @@
 {
-    "name":"ezshare",
+    "name": "ezshare",
     "homepage": "https://github.com/mifi/ezshare/",
-    "version": "1.9.0",
-    "url": "https://github.com/mifi/ezshare/releases/download/v1.9.0/ezshare-win.zip",
-    "hash": "EA4250AEA05DB96E0A50DCFC4B871E91A1BD7D79327A2C3EB43CFC07AE0DAD8F",
+    "version": "1.10.2",
+    "url": "https://github.com/mifi/ezshare/releases/download/v1.10.2/ezshare-win.zip",
+    "hash": "b27412e85990b0c1fd37914f93c658b29e5fc0774ffebdb6560e90786bf402ea",
     "architecture": {
         "64bit": {
             "extract_dir": "ezshare"
@@ -23,5 +23,4 @@
     "autoupdate": {
         "url": "https://github.com/mifi/ezshare/releases/download/v$version/ezshare-win.zip"
     }
-
 }

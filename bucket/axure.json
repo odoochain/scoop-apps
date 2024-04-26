@@ -1,10 +1,10 @@
 {
     "homepage": "https://www.axure.com/",
     "description": "Prototypes, Specifications, and Diagrams in One Tool",
-    "version": "10.0.0.3915",
+    "version": "10.0.0.3917",
     "license": "Proprietary",
-    "url": "https://axure.cachefly.net/versions/10-0/AxureRP-Setup-3915.exe#/installer.exe",
-    "hash": "b05ed2be445f02c4483d62959e29eafccea93d226f8fcaf262ac98d4dc7c6ef7",
+    "url": "https://axure.cachefly.net/versions/10-0/AxureRP-Setup-3917.exe#/installer.exe",
+    "hash": "41c3607596f1cb9af78a9ff581861e8222c111c62dfbdc7610074ec5f66306e8",
     "depends": "dark",
     "installer": {
         "script": [

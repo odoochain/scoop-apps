@@ -1,12 +1,12 @@
 {
-    "version": "3.0.0-preview.23",
+    "version": "3.0.0-preview.25",
     "description": "The audio player that keeps it simple, written using Electron, Angular and Typescript.",
     "homepage": "https://github.com/digimezzo/dopamine",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/digimezzo/dopamine/releases/download/v3.0.0-preview.23/Dopamine-3.0.0-preview.23.exe#/dl.7z",
-            "hash": "377d90d23c008c5a518dba96f44a816befac1334694c1a435b11d8cdefefc539"
+            "url": "https://github.com/digimezzo/dopamine/releases/download/v3.0.0-preview.25/Dopamine-3.0.0-preview.25.exe#/dl.7z",
+            "hash": "5d0aa34e33e125b2bdba925873a0800c854f8efa858de5b5f428433de3049126"
         }
     },
     "pre_install": [

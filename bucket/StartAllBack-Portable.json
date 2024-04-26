@@ -1,0 +1,22 @@
+{
+    "version": "3.7.8",
+    "description": "StartAllBack. Embrace, enhance, unsweep classic UI from under the rug. For Windows 11",
+    "homepage": "https://www.startallback.com/",
+    "license": "Proprietary",
+    "changelog": "https://www.startallback.com/",
+    "url": "https://startisback.sfo3.cdn.digitaloceanspaces.com/StartAllBack_3.7.8_setup.exe#/dl.7z",
+    "hash": "887417750ab89fbeefe58f92fc3445a6ebedff616a17aa9129c3e306905623f0",
+    "shortcuts": [
+        [
+            "StartAllBackCfg.exe",
+            "StartAllBack"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.startallback.com/",
+        "regex": ">Download v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://startisback.sfo3.cdn.digitaloceanspaces.com/StartAllBack_$version_setup.exe#/dl.7z"
+    }
+}

@@ -1,13 +1,13 @@
 {
     "homepage": "https://github.com/hiroi-sora/Umi-OCR",
-    "version": "2.0.2",
+    "version": "2.1.1",
     "description": "开源、免费、实用的离线OCR软件.",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hiroi-sora/Umi-OCR/releases/download/release/2.0.2/Umi-OCR_Rapid_v2.0.2.7z.exe#/dl.7z",
-            "hash": "fbca7e0f6fa8b560a15548d5a6fe4549a13a428eeee3b2aa68b508a0094c9ea8",
-            "extract_dir": "Umi-OCR_Rapid_v2.0.2"
+            "url": "https://github.com/hiroi-sora/Umi-OCR/releases/download/release/2.1.1/Umi-OCR_Rapid_v2.1.1.7z.exe#/dl.7z",
+            "hash": "09f10d04bd1915ad67a76e57e54adad781a295e8bbf64c7a3e7207f056cafee6",
+            "extract_dir": "Umi-OCR_Rapid_v2.1.1"
         }
     },
     "shortcuts": [

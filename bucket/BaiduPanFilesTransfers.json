@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/hxz393/BaiduPanFilesTransfers",
     "license": "GPL-3.0-or-later",
-    "version": "2.4.0",
-    "url": "https://github.com/hxz393/BaiduPanFilesTransfers/releases/download/2.4.0/BPFTv2.4.0.exe",
-    "hash": "f94671c5b045b9d8577da299ecb6395c1eac67610748bee3c2e6cb04011684e6",
+    "version": "2.6.0",
+    "url": "https://github.com/hxz393/BaiduPanFilesTransfers/releases/download/2.6.0/BPFTv2.6.0.exe",
+    "hash": "80431d68940d84ea14f94fd426cd9cd5390f8cb86aa17b8c64841b913828a61e",
     "installer": {
         "script": [
             "$exe = (Get-ChildItem \"$dir\" 'BPFT*.exe' | Select-Object -First 1).FullName",

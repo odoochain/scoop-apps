@@ -1,0 +1,24 @@
+{
+    "version": "0.0.5",
+    "description": "A CLI that writes your git commit messages for you with Google Gemini AI",
+    "homepage": "https://github.com/tfkhdyt/geminicommit",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tfkhdyt/geminicommit/releases/download/v0.0.5/geminicommit-v0.0.5-windows-amd64.zip",
+            "hash": "ef330720b60fccec5b36d77565ffa32a1e1e84cc2d04e9457ad97bcec0928be2"
+        }
+    },
+    "bin": "geminicommit.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tfkhdyt/geminicommit/releases/download/v$version/geminicommit-v$version-windows-amd64.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

@@ -1,12 +1,12 @@
 {
-    "version": "3.4.0",
+    "version": "3.6.0",
     "description": "An fast and accurate tool for exporting Genshin Impact achievements.",
     "homepage": "https://github.com/HolographicHat/YaeAchievement/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HolographicHat/YaeAchievement/releases/download/3.4.0/YaeAchievement.exe",
-            "hash": "ec7938e3ff3c85d1799590dcfc865c688045d0881a853f43bd99adff3f855924"
+            "url": "https://github.com/HolographicHat/YaeAchievement/releases/download/3.6.0/YaeAchievement.exe",
+            "hash": "337e6dead8d1f8d56303f66a4c2b8e10e00d12a70dc4e935e8ca169a0f12d51f"
         }
     },
     "shortcuts": [
@@ -22,12 +22,6 @@
                 "url": "https://github.com/HolographicHat/YaeAchievement/releases/download/$version/YaeAchievement.exe"
             }
         }
-    },
-    "suggest": {
-        ".Net 7": [
-            "extras/windowsdesktop-runtime",
-            "main/dotnet-sdk"
-        ]
     },
     "notes": [
         ".Net 7 runtime is required.",

@@ -1,10 +1,10 @@
 {
-    "version": "1.110",
+    "version": "1.120.2",
     "description": "A Chinese sans-serif font derived from IPAex Gothic. 一款衍生于「IPAexゴシック」的中文黑体字型。",
     "homepage": "https://github.com/lxgw/LxgwNeoXiHei",
     "license": "IPA",
-    "url": "https://github.com/lxgw/LxgwNeoXiHei/releases/download/v1.110/LXGWNeoXiHei.ttf",
-    "hash": "e8a78acfc94904273fb1ce690a44b6992c0c010f17a700c83028d26d55eec87e",
+    "url": "https://github.com/lxgw/LxgwNeoXiHei/releases/download/v1.120.2/LXGWNeoXiHei.ttf",
+    "hash": "44dd0e98d4b769244c2b5f67362a97609e0f200421eaee56ffe2fc0c27aa31c1",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -40,7 +40,7 @@
             "Get-ChildItem $dir -Filter '*.ttf' | ForEach-Object {",
             "    $value = if ($global) { $_.Name } else { \"$fontInstallDir\\$($_.Name)\" }",
             "    New-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $value -Force | Out-Null",
-            "    Copy-Item $_.FullName -Destination $fontInstallDir",
+            "    Copy-Item -LiteralPath $_.FullName -Destination $fontInstallDir",
             "}"
         ]
     },

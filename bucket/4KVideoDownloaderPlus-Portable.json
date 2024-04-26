@@ -1,0 +1,42 @@
+{
+    "version": "1.5.3",
+    "description": "4K Video Downloader+. Download videos from all popular websites including YouTube, Vimeo, TikTok, SoundCloud, Facebook, Twitch, Bilibili and more in high-quality",
+    "homepage": "https://www.4kdownload.com/products/videodownloader",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.4kdownload.com/agreement/freeware"
+    },
+    "changelog": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.4kdownload.com/app/4kvideodownloaderplus_1.5.3_x64.zip?source=website#/setup.7z",
+            "hash": "883d3925b0d54d8e986652423dfd3c2c919c8076e96f58c049c443b0f56f5f2e"
+        },
+        "32bit": {
+            "url": "https://dl.4kdownload.com/app/4kvideodownloaderplus_1.5.3.zip?source=website#/setup.7z",
+            "hash": "13dd6403050c2013420211b248819329ea581f40ee2ba40553a78109e2cbd0b2"
+        }
+    },
+    "extract_dir": "4kvideodownloaderplus",
+    "bin": "4kvideodownloaderplus.exe",
+    "shortcuts": [
+        [
+            "4kvideodownloaderplus.exe",
+            "4K Video Downloader+"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.4kdownload.com/downloads/",
+        "regex": "4kvideodownloaderplus_([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.4kdownload.com/app/4kvideodownloaderplus_$majorVersion.$minorVersion.$patchVersion_x64.zip?source=website#/setup.7z"
+            },
+            "32bit": {
+                "url": "https://dl.4kdownload.com/app/4kvideodownloaderplus_$majorVersion.$minorVersion.$patchVersion.zip?source=website#/setup.7z"
+            }
+        }
+    }
+}

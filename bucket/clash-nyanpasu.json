@@ -1,12 +1,12 @@
 {
-    "version": "1.4.5",
+    "version": "1.5.1",
     "description": "A Clash GUI based on Tauri.",
     "homepage": "https://github.com/keiko233/clash-nyanpasu",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/keiko233/clash-nyanpasu/releases/download/v1.4.5/Clash.Nyanpasu_1.4.5_x64_portable.zip",
-            "hash": "8a70e58894cbdace7299a2fd50e4e44aafb0e7f5a6a076a29e86c0694d3986eb"
+            "url": "https://github.com/keiko233/clash-nyanpasu/releases/download/v1.5.1/Clash.Nyanpasu_1.5.1_x64_portable.zip",
+            "hash": "934f7acad4b7280521720ac5861599d72735aa020d9d17f91787098f40689e37"
         }
     },
     "shortcuts": [

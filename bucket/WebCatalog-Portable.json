@@ -1,0 +1,28 @@
+{
+    "version": "56.5.0",
+    "description": "WebCatalog. Transform websites into desktop apps with WebCatalog, and access a wealth of exclusive apps for Mac & PC. ",
+    "homepage": "https://webcatalog.io",
+    "license": "???",
+    "changelog": "https://webcatalog.io/changelog/",
+    "url": "https://cdn-2.webcatalog.io/webcatalog/WebCatalog%20Setup%2056.5.0.exe#/dl.7z",
+    "hash": "a16bfab0a3ed9a3d23a4f152109f740c2f66651a065d4165704add2eb0f33c90",
+    "installer": {
+        "script": [
+            "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
+            "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse"
+        ]
+    },
+    "shortcuts": [
+        [
+            "WebCatalog.exe",
+            "WebCatalog"
+        ]
+    ],
+    "checkver": {
+        "url": "https://webcatalog.io/en/desktop/",
+        "regex": "\"windowsVersion\":\"([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://cdn-2.webcatalog.io/webcatalog/WebCatalog%20Setup%20$version.exe#/dl.7z"
+    }
+}

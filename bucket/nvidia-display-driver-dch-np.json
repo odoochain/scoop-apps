@@ -1,5 +1,5 @@
 {
-    "version": "551.23",
+    "version": "552.22",
     "description": "NVIDIA display driver (Declarative Componentized Hardware version). DCH drivers are installed on most new desktop and mobile workstation systems.",
     "homepage": "https://www.nvidia.com/Download/index.aspx",
     "license": "Freeware",
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://us.download.nvidia.com/Windows/551.23/551.23-desktop-win10-win11-64bit-international-dch-whql.exe#/dl.7z_",
-            "hash": "6090cf8b003687901c67b12517d8bc8e2751b122c8d29f2087432ff85fdf58a4"
+            "url": "https://us.download.nvidia.com/Windows/552.22/552.22-desktop-win10-win11-64bit-international-dch-whql.exe#/dl.7z_",
+            "hash": "e5087d8328778ab18deb1aa1436577d70ee7bcb3db943773d52c78525dee1499"
         }
     },
     "installer": {

@@ -1,12 +1,12 @@
 {
-    "version": "4.1.0",
+    "version": "5.0.0",
     "description": "Command-line tools for EdgeDB.",
-    "homepage": "https://www.edgedb.com/docs/cli/index",
+    "homepage": "https://docs.edgedb.com/cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://packages.edgedb.com/archive/x86_64-pc-windows-msvc/edgedb-cli-4.1.0+127aeb9.exe#/edgedb.exe",
-            "hash": "873ce8f49c7c734125a3f8c3586da65f7fbba0e107b6f3ffc790ad2b7959c30e"
+            "url": "https://packages.edgedb.com/archive/x86_64-pc-windows-msvc/edgedb-cli-5.0.0+ef02158.exe#/edgedb.exe",
+            "hash": "3616a3e0da717ecbcc2d662c41a5e469b14d9b7e4039c079f5be0829782a2418"
         }
     },
     "bin": "edgedb.exe",

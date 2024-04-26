@@ -1,5 +1,5 @@
 {
-    "version": "6.5.1-39-g0acbca3",
+    "version": "6.7.3-13-g7c4bb8c",
     "description": "A command-line utility that pipes video streams from various services into a video player.",
     "homepage": "https://streamlink.github.io/",
     "license": "BSD-2-Clause",
@@ -17,22 +17,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://nightly.link/streamlink/windows-builds/workflows/nightly/master/streamlink-6.5.1-39-g0acbca3-py312-x86_64.zip.zip",
+                "https://nightly.link/streamlink/windows-builds/workflows/nightly/master/streamlink-6.7.3-13-g7c4bb8c-py312-x86_64.zip.zip",
                 "https://raw.githubusercontent.com/2bc4/streamlink-ttvlol/master/twitch.py"
             ],
             "hash": [
-                "df45a98080deaf8949cfae279e7e60dc430c6c8d2f2aa256d82beb2d34087d57",
-                "17ab9d48bdcf7788df4b53705c0c03b6d1f21ce6e95875837d5e7dde2e248352"
+                "1b94c3f85511b593a9d8b1d1f31856f6f000f8a16c0624407d9df880f0aea227",
+                "5013339b390e43610f4c967f58ef4916c33f7632f4cdb82f897cb35fb615492a"
             ]
         },
         "32bit": {
             "url": [
-                "https://nightly.link/streamlink/windows-builds/workflows/nightly/master/streamlink-6.5.1-39-g0acbca3-py312-x86.zip.zip",
+                "https://nightly.link/streamlink/windows-builds/workflows/nightly/master/streamlink-6.7.3-13-g7c4bb8c-py312-x86.zip.zip",
                 "https://raw.githubusercontent.com/2bc4/streamlink-ttvlol/master/twitch.py"
             ],
             "hash": [
-                "1ab66b8177622318464a48e269fb55b46e04369474e97ba514a7d9029e02639b",
-                "17ab9d48bdcf7788df4b53705c0c03b6d1f21ce6e95875837d5e7dde2e248352"
+                "9b81a47b6131d78f52dcf0392a099fb0a1565e5eaf20ee99b17637c94ec1c9fb",
+                "5013339b390e43610f4c967f58ef4916c33f7632f4cdb82f897cb35fb615492a"
             ]
         }
     },
@@ -46,14 +46,14 @@
         "$paths | ForEach-Object { Move-Item \"$dir/streamlink-$version-py312-x86*/$_\" \"$dir\" }",
         "Remove-Item -Recurse \"$dir/streamlink-$version-py312-x86*\"",
         "Move-Item -Force \"$dir/twitch.py\" \"$dir/pkgs/streamlink/plugins\"",
-        "if (!(Test-Path \"$persist_dir/config\")) {",
-        "    if (Test-Path \"$env:APPDATA/streamlink/config\") {",
-        "        info 'Copying existing ''config'' from ''%APPDATA%\\streamlink\\config'''",
-        "        $null = Copy-Item \"$env:APPDATA/streamlink/config\" \"$dir/config\"",
-        "    } else {",
-        "        $null = New-Item \"$dir/config\"",
-        "    }",
-        "}"
+        "$session = (Get-ChildItem \"$dir/pkgs/streamlink/session/session.py\").FullName",
+        "(Get-Content -Raw $session).Replace('plugins_lazy: bool = True', 'plugins_lazy: bool = False') | Set-Content $session",
+        "if ((Test-Path \"$persist_dir/config\")) { return }",
+        "if (Test-Path \"$env:APPDATA/streamlink/config\") {",
+        "    info 'Copying existing ''config'' from ''%APPDATA%\\streamlink\\config'''",
+        "    return $null = Copy-Item \"$env:APPDATA/streamlink/config\" \"$dir/config\"",
+        "}",
+        "$null = New-Item \"$dir/config\""
     ],
     "bin": [
         [

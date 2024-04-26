@@ -1,0 +1,21 @@
+{
+    "version": "5.19.0",
+    "description": "Blazing-Fast Graph, Petabyte Scale",
+    "homepage": "https://neo4j.com/",
+    "license": "Unknown",
+    "url": "https://dist.neo4j.org/neo4j-community-5.19.0-windows.zip",
+    "hash": "3a3df3e858bb8c22d7bd940b0548a335c7c1a5bb4a12e4734f4ce3cc87c7c009",
+    "extract_dir": "neo4j-community-5.19.0",
+    "env_add_path": "bin",
+    "checkver": {
+        "url": "https://neo4j.com/download-center/#community",
+        "regex": "Neo4j ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://dist.neo4j.org/neo4j-community-$version-windows.zip",
+        "hash": {
+            "url": "https://neo4j.com/wp-content/get_checksum.php?q=neo4j-community-$version-windows.zip.sha256"
+        },
+        "extract_dir": "neo4j-community-$version"
+    }
+}

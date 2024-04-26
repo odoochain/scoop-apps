@@ -1,0 +1,43 @@
+{
+    "version": "2.9.0",
+    "description": "Share Clipboard. Share copied files and screenshots securely. Free and open-source tool that works on Windows, Linux, and Android.",
+    "homepage": "https://github.com/thevindu-w/clip_share_server",
+    "license": {
+        "identifier": "GPL-3.0 license",
+        "url": "https://github.com/thevindu-w/clip_share_server/blob/master/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/thevindu-w/clip_share_server/releases/download/v2.9.0/clip_share_server-2.9.0-windows64.zip",
+                "https://github.com/thevindu-w/clip_share_server/releases/download/v2.9.0/clipshare.conf"
+            ],
+            "hash": [
+                "2f2dff7ad94449f9eb6bf4d08de02584b28d43ff025d569eb469495c8680c80b",
+                "975f4e0c0f46820ffcb81887145cc676b43680f1a665af9c0451c4745919bc98"
+            ]
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\\clip_share*.exe\" | Rename-Item -NewName 'clip_share.exe'",
+    "shortcuts": [
+        [
+            "clip_share.exe",
+            "clip_share"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/thevindu-w/clip_share_server/releases",
+        "jsonpath": "$[0].assets[*].browser_download_url",
+        "regex": "(?<file>clip_share_server-([\\d.]+)-windows64\\.(?:exe|zip))"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/thevindu-w/clip_share_server/releases/download/v$version/$matchFile",
+                    "https://github.com/thevindu-w/clip_share_server/releases/download/v$version/clipshare.conf"
+                ]
+            }
+        }
+    }
+}

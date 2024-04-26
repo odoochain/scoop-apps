@@ -1,5 +1,5 @@
 {
-    "version": "1.1.13",
+    "version": "1.1.19",
     "description": "Unofficial Telegram Desktop with some enhancements.",
     "homepage": "https://64gr.am",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TDesktop-x64/tdesktop/releases/download/v1.1.13/64Gram_1.1.13_x64.zip",
-            "hash": "203ec70d39fd22f1ac5378a647ea79eccee96b8f05a86a7f3eb1efd4247b5adb"
+            "url": "https://github.com/TDesktop-x64/tdesktop/releases/download/v1.1.19/64Gram_1.1.19_x64.zip",
+            "hash": "d573793cf199209f0452bc3489eacc931684cfe7ee7db23c78d3375f4f3bcfb7"
         }
     },
     "persist": "tdata",

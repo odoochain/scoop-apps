@@ -1,11 +1,5 @@
 #!/bin/bash
-###
- # @Author: zzz
- # @Date: 2021-03-03 05:13:39
- # LastEditTime: 2022-07-09 09:56:00
- # @Description: autoupdate bucket:scoop-apps
- # @FilePath: /data/scoop-apps/autoupdate.sh
-###
+# @Description: autoupdate bucket:scoop-apps
 
 # get bucket from rasa/scoop-directory
 gen_bucket_config(){
@@ -149,7 +143,7 @@ merge_buckets(){
         echo "正在处理仓库: $bucket 仓库名:$bucket_dir 仓库github账号:$owner 时间: $(date '+%Y-%m-%d %H:%M:%S')"
         files=$(find ${cache_dir}/${bucket_dir} -type f -name *.json ! -name ".*" -not -path "${cache_dir}/$bucket_dir/.vscode/*" )
         files_array=(${files})
-        if [ ${#files_array[*]} -gt 2000 ]
+        if [ ${#files_array[*]} -gt 2000 -a $owner != "ScoopInstaller" ]
         then
             echo "仓库描述文件过多，忽略: $bucket 仓库名:$bucket_dir 仓库github账号:$owner"
             continue
