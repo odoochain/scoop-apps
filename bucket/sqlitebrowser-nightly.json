@@ -1,16 +1,16 @@
 {
-    "version": "2024-04-29",
+    "version": "2024-05-01",
     "description": "DB Browser for SQLite (DB4S) project (nightly build)",
     "homepage": "https://github.com/sqlitebrowser/sqlitebrowser",
     "license": "MPL-2.0|GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://nightlies.sqlitebrowser.org/win64/DB.Browser.for.SQLite-2024-04-29-win64.zip",
-            "hash": "56e3ee12d65b4fc4e32e15c5a4528089366a23dd72d4503894dd15c4bc1e79c6"
+            "url": "https://nightlies.sqlitebrowser.org/win64/DB.Browser.for.SQLite-2024-05-01-win64.zip",
+            "hash": "3f46ba262f106f95ab4e6950d6408cb09b7939135b984852f63720d45075a1f7"
         },
         "32bit": {
-            "url": "https://nightlies.sqlitebrowser.org/win32/DB.Browser.for.SQLite-2024-04-29-win32.zip",
-            "hash": "082ad37048f36ebb034a4313e6ae4929c1acb6fce8e689109c4e1203e90d69a1"
+            "url": "https://nightlies.sqlitebrowser.org/win32/DB.Browser.for.SQLite-2024-05-01-win32.zip",
+            "hash": "93d8d42cb028d7f092ca1b2716f70d899a94de4ce41d3327497bf96b32915f0a"
         }
     },
     "bin": [
