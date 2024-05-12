@@ -15,7 +15,8 @@
     },
     "bin": "kosli.exe",
     "checkver": {
-        "github": "https://github.com/kosli-dev/cli"
+        "url": "https://github.com/kosli-dev/cli/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
