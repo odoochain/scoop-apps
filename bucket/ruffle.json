@@ -1,5 +1,5 @@
 {
-    "version": "2024-05-19",
+    "version": "2024-05-21",
     "description": "A Flash Player emulator written in Rust",
     "homepage": "https://ruffle.rs/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-2024-05-19/ruffle-nightly-2024_05_19-windows-x86_64.zip",
-            "hash": "270b10475176f278d4a1e7eb3ac222703dc203487d66e4bcbbd7dd1b26772a2d"
+            "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-2024-05-21/ruffle-nightly-2024_05_21-windows-x86_64.zip",
+            "hash": "e9fec730a1ede4c71b40a08c2f2ccad3d6ee7801c1580401111e5c781f15cdd6"
         },
         "32bit": {
-            "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-2024-05-19/ruffle-nightly-2024_05_19-windows-x86_32.zip",
-            "hash": "c80eb9b781beba0f37abaf93781b9e5941b4caeb8dc1d7713cb1aa6911954bee"
+            "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-2024-05-21/ruffle-nightly-2024_05_21-windows-x86_32.zip",
+            "hash": "5425d448312aac5a5230817a97a85411a1b018eaf75501e1abd696a7ca359f47"
         }
     },
     "shortcuts": [

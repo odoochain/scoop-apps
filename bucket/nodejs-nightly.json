@@ -1,23 +1,23 @@
 {
-    "version": "23.0.0-nightly20240518559212e64c",
+    "version": "23.0.0-nightly20240520b1c1fafd95",
     "description": "An asynchronous event driven JavaScript runtime designed to build scalable network applications. (nightly verison)",
     "homepage": "https://nodejs.org",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nodejs.org/download/nightly/v23.0.0-nightly20240518559212e64c/node-v23.0.0-nightly20240518559212e64c-win-x64.7z",
-            "hash": "8bd2be3219bc37b60b410efe4447e9b7de9029eae547a69bb0b1d266582b7316",
-            "extract_dir": "node-v23.0.0-nightly20240518559212e64c-win-x64"
+            "url": "https://nodejs.org/download/nightly/v23.0.0-nightly20240520b1c1fafd95/node-v23.0.0-nightly20240520b1c1fafd95-win-x64.7z",
+            "hash": "b17489eb27e636c6097a1ddc1493b7ea8be7f00a32dd662572c7db2344e03cca",
+            "extract_dir": "node-v23.0.0-nightly20240520b1c1fafd95-win-x64"
         },
         "32bit": {
-            "url": "https://nodejs.org/download/nightly/v23.0.0-nightly20240518559212e64c/node-v23.0.0-nightly20240518559212e64c-win-x86.7z",
-            "hash": "8c943a7dd459154dea2758f1a2dedf3ac10a9cbae1a1b6f61e5a6c37728c02f6",
-            "extract_dir": "node-v23.0.0-nightly20240518559212e64c-win-x86"
+            "url": "https://nodejs.org/download/nightly/v23.0.0-nightly20240520b1c1fafd95/node-v23.0.0-nightly20240520b1c1fafd95-win-x86.7z",
+            "hash": "120c99f807e4d47ab84ad29a3a1c9f15d87cb16af64b7b0e5abe7a97fdb4c484",
+            "extract_dir": "node-v23.0.0-nightly20240520b1c1fafd95-win-x86"
         },
         "arm64": {
-            "url": "https://nodejs.org/download/nightly/v23.0.0-nightly20240518559212e64c/node-v23.0.0-nightly20240518559212e64c-win-arm64.7z",
-            "hash": "b62fdda3438df6c65362b311ec166cb49c425aa13ef511c24f9f9c493c36e862",
-            "extract_dir": "node-v23.0.0-nightly20240518559212e64c-win-arm64"
+            "url": "https://nodejs.org/download/nightly/v23.0.0-nightly20240520b1c1fafd95/node-v23.0.0-nightly20240520b1c1fafd95-win-arm64.7z",
+            "hash": "7e7da92f3026055dbb8cdcc8eff9d5e8b6bfdeadcada0969f8ebc0f441f0f679",
+            "extract_dir": "node-v23.0.0-nightly20240520b1c1fafd95-win-arm64"
         }
     },
     "persist": [
