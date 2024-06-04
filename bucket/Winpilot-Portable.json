@@ -1,11 +1,11 @@
 {
-    "version": "2024.5.21",
+    "version": "2024.6.3",
     "homepage": "https://www.builtbybel.com/apps/winpilot",
     "description": "Winpilot (former Bloatynosy). The latest release of Winpilot (former Bloatynosy) introduces a significant milestone with its hybrid web app foundation",
     "license": "MIT",
     "changelog": "https://github.com/builtbybel/Winpilot/releases",
-    "url": "https://github.com/builtbybel/Winpilot/releases/download/2024.5.21/Winpilot.zip",
-    "hash": "feceae2dbdf447d8a801f1f2f206523c8d0a25d4dbc80914ccef575b187bd050",
+    "url": "https://github.com/builtbybel/Winpilot/releases/download/2024.6.3/Winpilot.zip",
+    "hash": "3b581ce0c5e7bbca65884117a9fc6027dfc985ba8dec6e43704693eb620bb5ee",
     "shortcuts": [
         [
             "Winpilot.exe",

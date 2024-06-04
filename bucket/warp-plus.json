@@ -1,13 +1,13 @@
 {
-    "version": "1.2.1",
+    "version": "1.2.3",
     "description": "Patched for Warp to work in iran.",
     "homepage": "https://github.com/bepass-org/warp-plus",
     "license": "MIT",
     "notes": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bepass-org/warp-plus/releases/download/v1.2.1/warp-plus_windows-amd64.zip",
-            "hash": "9e880e99fa4474c6d2ed7d6cc9a1d4444dcdd42e511acddba3be10afd6311419"
+            "url": "https://github.com/bepass-org/warp-plus/releases/download/v1.2.3/warp-plus_windows-amd64.zip",
+            "hash": "a387829ad2b5630f845abe812fb885def9998a538a28ef1262861395bbd08e11"
         }
     },
     "checkver": "github",

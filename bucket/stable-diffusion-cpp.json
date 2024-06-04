@@ -1,0 +1,24 @@
+{
+    "version": "snapshot-e1384de",
+    "description": "Stable Diffusion in pure C/C++ (AVX2)",
+    "homepage": "https://github.com/leejet/stable-diffusion.cpp",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-e1384de/sd-master-e1384de-bin-win-avx2-x64.zip",
+            "hash": "ec99fa2e8bccfea6f98b7e949c268a67db723aa104fffb60ac04bbb5e7778659"
+        }
+    },
+    "bin": "sd.exe",
+    "checkver": {
+        "regex": "master-(?<commit>[0-9a-f]{7})",
+        "replace": "snapshot-$1"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-$matchCommit/sd-master-$matchCommit-bin-win-avx2-x64.zip"
+            }
+        }
+    }
+}
