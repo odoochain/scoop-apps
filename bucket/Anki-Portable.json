@@ -1,5 +1,5 @@
 {
-    "version": "24.06",
+    "version": "24.06.2",
     "description": "Anki. Powerful and intelligent flash cards",
     "homepage": "https://apps.ankiweb.net",
     "license": "AGPL-3.0-only",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ankitects/anki/releases/download/24.06/anki-24.06-windows-qt6.exe#/dl.7z",
-            "hash": "f3a687731a2495d3af4d74463c003de180e1da996e07f521d96c09dfc6642aab"
+            "url": "https://github.com/ankitects/anki/releases/download/24.06.2/anki-24.06.2-windows-qt6.exe#/dl.7z",
+            "hash": "4d70fdf8652ba910263d66466d7a94165fe593fc863b9a10c593013ef2828a35"
         }
     },
     "pre_install": [
