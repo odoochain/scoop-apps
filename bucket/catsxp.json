@@ -1,22 +1,22 @@
 {
-    "version": "4.6.2",
-    "description": "猫眼浏览器是一款以简约安全为目标Chrome内核增强版浏览器",
+    "version": "4.7.1",
+    "description": "Catsxp is a fast browser for more privacy protection and security",
     "homepage": "https://www.catsxp.com",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://catsxp.oss-cn-hongkong.aliyuncs.com/x64/portable_x64_release_126_4_6_2.zip",
-            "hash": "094601753ab386acf6c54e92c8dc6a1273c277c1be159db1c281dbfeff08f19d"
+            "url": "https://catsxp.oss-cn-hongkong.aliyuncs.com/x64/portable_x64_release_127_4_7_1.zip",
+            "hash": "3ac98b49cbfe02a1fca19fd95cb1b3f8578fab02eec04c2303d998ed93572159"
         },
         "32bit": {
-            "url": "https://catsxp.oss-cn-hongkong.aliyuncs.com/x86/portable_x86_release_126_4_6_2.zip",
-            "hash": "1a26d68a79ab029cdf4a0dc0230978c3bc38d6f3354355975e18a9cb76459c89"
+            "url": "https://catsxp.oss-cn-hongkong.aliyuncs.com/x86/portable_x86_release_127_4_7_1.zip",
+            "hash": "bd4185d8f024e0bda8c957ea51193605b8716da7fc6e2b04a19eb662d359b46f"
         }
     },
     "shortcuts": [
         [
             "catsxp.exe",
-            "猫眼浏览器"
+            "Catsxp"
         ]
     ],
     "checkver": {

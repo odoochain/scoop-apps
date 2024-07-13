@@ -1,5 +1,5 @@
 {
-    "version": "5.3.0",
+    "version": "5.4.3",
     "description": "Download audio in MP3, M4A, OGG from YouTube, Soundcloud, Vimeo, Instagram, Facebook, Dailymotion, Twitch and more.",
     "homepage": "https://www.4kdownload.com/products/product-youtubetomp3",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "32bit": {
-            "url": "https://dl.4kdownload.com/app/4kyoutubetomp3_5.3.0.zip",
-            "hash": "7f3646e0fba2d925c6723f12077e4ef7bb4f14f543b9517c9f17e65831a0967f"
+            "url": "https://dl.4kdownload.com/app/4kyoutubetomp3_5.4.3.zip",
+            "hash": "85ff98f6925be3382cb7039690269588c786d4180008776f098e2ba6ec66faba"
         },
         "64bit": {
-            "url": "https://dl.4kdownload.com/app/4kyoutubetomp3_5.3.0_x64.zip",
-            "hash": "58a9f1e026f0d090bce4bac6a631212cc6662fd4dd4826e71aebb3c62deea198"
+            "url": "https://dl.4kdownload.com/app/4kyoutubetomp3_5.4.3_x64.zip",
+            "hash": "42204bd8f772ae387cbe59079c8991723755838b80bf13ef2e1d2de18bbd875e"
         }
     },
     "extract_dir": "4kyoutubetomp3",

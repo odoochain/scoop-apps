@@ -1,10 +1,10 @@
 {
-    "version": "24.5.13",
+    "version": "24.6.20.2",
     "homepage": "https://www.special-k.info/",
     "description": "Lovingly referred to as the Swiss Army Knife of PC gaming, Special K does a bit of everything.",
     "license": "GPL-3.0",
-    "url": "https://sk-data.special-k.info/repository/SpecialK_24.5.13.exe",
-    "hash": "849099998d6717bfbeddcf13a38c60379c69542e25bd465a386bf988f1d717cb",
+    "url": "https://sk-data.special-k.info/repository/SpecialK_24.6.20.2.exe",
+    "hash": "cd247238e6043c35634deef1b9aef89959ff8e8e4aa35af2b36646385206fb03",
     "pre_install": [
         "$special_k_dir = \"$env:LOCALAPPDATA\\Programs\\Special K\"",
         "if (Test-Path \"$persist_dir\\Profiles\") {",
@@ -13,10 +13,14 @@
         "if (Test-Path \"$persist_dir\\Global\") {",
         "    Copy-Item \"$persist_dir\\Global\" \"$special_k_dir\\Global\" -Recurse",
         "}",
-        "Start-Process \"$dir\\$fname\" -Wait -Args @('/VERYSILENT', '/SP-', '/NORESTART', '/CURRENTUSER')",
-        "Stop-Process -Name 'SKIF' -Force"
+        "if ($cmd -eq 'update') {",
+        "    Start-Process \"$dir\\$fname\" -Args @('/VERYSILENT', '/SP-', '/NORESTART', '/CURRENTUSER')",
+        "    Start-Sleep -Seconds 5",
+        "} else {",
+        "    Start-Process \"$dir\\$fname\" -Wait -Args @('/VERYSILENT', '/SP-', '/NORESTART', '/CURRENTUSER')",
+        "}",
+        "if (Get-Process -Name 'SKIF' -ErrorAction 'SilentlyContinue') { Stop-Process -Name 'SKIF' -Force }"
     ],
-    "env_add_path": ".",
     "uninstaller": {
         "script": [
             "$special_k_dir = \"$env:LOCALAPPDATA\\Programs\\Special K\"",

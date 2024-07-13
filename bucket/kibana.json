@@ -1,5 +1,5 @@
 {
-    "version": "8.14.0",
+    "version": "8.14.3",
     "description": "An open source analytics and visualization platform designed to work with Elasticsearch.",
     "homepage": "https://www.elastic.co/products/kibana",
     "license": {
@@ -14,9 +14,9 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://artifacts.elastic.co/downloads/kibana/kibana-8.14.0-windows-x86_64.zip",
-            "hash": "sha512:8834f72d05e470db1a2092cd708e8ead0a818235a25eba0b115fe42494c67cf6cbce17303dbf3816536558a0e0c17fe6632bf10298a284e4c2aa22dc1a513a17",
-            "extract_dir": "kibana-8.14.0"
+            "url": "https://artifacts.elastic.co/downloads/kibana/kibana-8.14.3-windows-x86_64.zip",
+            "hash": "sha512:b9771c905e8790f65dfc46da4c68ff1d2cc8e92b119ca22b4997ae3dbc023921d6d732571db137669fc10d392ddb45b121545b8bb9f78b687babbd23187e1f32",
+            "extract_dir": "kibana-8.14.3"
         }
     },
     "bin": [

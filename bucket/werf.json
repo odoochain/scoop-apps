@@ -1,17 +1,18 @@
 {
-    "version": "2.5.0",
-    "description": "A CLI tool gluing Git, Docker, Helm, and Kubernetes with any CI system to implement CI/CD and Giterminism.",
+    "version": "1.2.320",
+    "description": "A CNCF Sandbox CLI tool to implement full-cycle CI/CD to Kubernetes easily",
     "homepage": "https://werf.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://tuf.werf.io/targets/releases/2.5.0/windows-amd64/bin/werf.exe",
-            "hash": "ff831b7f296465df22b446664e178543c2fae6aac074ee5e2c4b69552b205d51"
+            "url": "https://tuf.werf.io/targets/releases/1.2.320/windows-amd64/bin/werf.exe",
+            "hash": "c2812d2a7ff22d823362222f7474ebdc5bf3ceac68e41844cc5e26d1fcd56db8"
         }
     },
     "bin": "werf.exe",
     "checkver": {
-        "github": "https://github.com/werf/werf"
+        "url": "https://github.com/werf/werf/releases",
+        "regex": "/tag/v(1\\.[\\d.]+)\""
     },
     "autoupdate": {
         "architecture": {

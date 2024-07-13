@@ -1,13 +1,13 @@
 {
-    "version": "3.1.0-alpha1",
+    "version": "3.1.0-beta2",
     "description": "WingetUI Beta. A GUI Store for the most common cli package managers, sych as Winget and Scoop.",
     "homepage": "https://github.com/martinet101/WinGetUI",
     "license": "LGPL-2.1-only",
     "changelog": "https://github.com/martinet101/WinGetUI/releases",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/martinet101/WinGetUI/releases/download/3.1.0-alpha1/WingetUI.Installer.exe",
-            "hash": "2b01939fc4e41b3caf9d9e994b8e57dd3cea016dfd03da6ca8378819263eef04"
+            "url": "https://github.com/martinet101/WinGetUI/releases/download/3.1.0-beta2/WingetUI.Installer.exe",
+            "hash": "81af84438e7203eb6765e43c9bd2d19f915f670852956ca8550de5bac39ad223"
         }
     },
     "innosetup": true,

@@ -1,5 +1,5 @@
 {
-    "version": "2024.1-EAP9-241.14494.107",
+    "version": "2024.2-EAP7-242.20224.26",
     "description": "Cross-Platform IDE for .NET by JetBrains. (Early Access Program)",
     "homepage": "https://www.jetbrains.com/rider/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.1-EAP9-241.14494.107.Checked.win.zip",
-            "hash": "3d1b5a6a1728b85d8a0c5883ccfbe61ec3a858822e402229f00c433cb8bb4049",
+            "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-EAP7-242.20224.26.Checked.win.zip",
+            "hash": "5ed4d21f7d8c88f88315a29c6c145666bd18f6a7472711f9a9029ae715a2b817",
             "bin": [
                 [
                     "IDE\\bin\\rider64.exe",

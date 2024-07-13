@@ -1,5 +1,5 @@
 {
-    "version": "20240604-10578-30deaa520",
+    "version": "20240711-10592-d4f01864a",
     "description": "Modern source port for Duke Nukem 3D",
     "homepage": "https://www.eduke32.com/",
     "license": "http://www.eduke32.com/buildlic.txt",
@@ -14,12 +14,12 @@
     ],
     "architecture": {
         "32bit": {
-            "url": "https://dukeworld.com/eduke32/synthesis/20240604-10578-30deaa520/eduke32_win32_20240604-10578-30deaa520.7z",
-            "hash": "3e9aec11b3e8fbd0e779504d708527f32410bb5a3a4f8bb5443d5a6370852322"
+            "url": "https://dukeworld.com/eduke32/synthesis/20240711-10592-d4f01864a/eduke32_win32_20240711-10592-d4f01864a.7z",
+            "hash": "94b5d2124ebc24a974792ad80425182a8fd0444e29f5fa4c797d25ee8d09b3a3"
         },
         "64bit": {
-            "url": "https://dukeworld.com/eduke32/synthesis/20240604-10578-30deaa520/eduke32_win64_20240604-10578-30deaa520.7z",
-            "hash": "69145a3ce48d0b67f5f2ede8717a4802bb23a7e6d8c19ae84062f3baf7a1d9c7"
+            "url": "https://dukeworld.com/eduke32/synthesis/20240711-10592-d4f01864a/eduke32_win64_20240711-10592-d4f01864a.7z",
+            "hash": "f9e56f1e44b9f3e4c42e452d6132cb789251aea0e98b1192afc7215eadd4b12f"
         }
     },
     "pre_install": [

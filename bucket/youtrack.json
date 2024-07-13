@@ -1,5 +1,5 @@
 {
-    "version": "2024.1.34109",
+    "version": "2024.2.37269",
     "description": "Web-based issue tracking and agile project management tool by JetBrains.",
     "homepage": "https://jetbrains.com/youtrack/",
     "license": {
@@ -7,9 +7,9 @@
         "url": "https://jetbrains.com/youtrack/buy/license.html"
     },
     "notes": "YouTrack can be started from anywhere using 'youtrack' command.",
-    "url": "https://download.jetbrains.com/charisma/youtrack-2024.1.34109.zip",
-    "hash": "c458bc0c4779362ef1a0ec932c57502f69496aa2667a49bdb0e07367b09c85ce",
-    "extract_dir": "youtrack-2024.1.34109",
+    "url": "https://download.jetbrains.com/charisma/youtrack-2024.2.37269.zip",
+    "hash": "92eacb7bad296511843fba06a131269490ca7964d1c6dd9a005f386688ad1a76",
+    "extract_dir": "youtrack-2024.2.37269",
     "installer": {
         "script": [
             "$ver_path = \"$dir\\bin\"",

@@ -1,17 +1,17 @@
 {
-    "version": "3.6.1",
+    "version": "5.11.0+07122024191820",
     "description": "Translation tool for Visual Novel (Galgame), with varies OCR/Hook/Clipboard support",
     "homepage": "https://github.com/HIllya51/LunaTranslator",
     "license": "GPL-3.0-only",
     "extract_to": "install_tmp",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v3.6.1/LunaTranslator_x86.zip",
-            "hash": "0626394e90e693bac328b9e364b46681ee879771ba632271005d446c0adc1f91"
+            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v5.11.0/LunaTranslator_x86.zip",
+            "hash": "3c98ec94c8f300cdf46ee42bb5f18b123c891145999757caef6dccecc72d2e8a"
         },
         "64bit": {
-            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v3.6.1/LunaTranslator.zip",
-            "hash": "681a277197eda577ec379869e93f90ab9930690d20e36265d1593d3e2b94e757"
+            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v5.11.0/LunaTranslator.zip",
+            "hash": "75e7cebc915e223fc90ebdf05e5cf71a5b98477a8f536d98b1e3a561801345dd"
         }
     },
     "pre_install": [
@@ -33,14 +33,23 @@
         ]
     ],
     "persist": "userconfig",
-    "checkver": "github",
+    "checkver": {
+        "script": [
+            "$rel_info = Invoke-RestMethod -Uri 'https://api.github.com/repos/HIllya51/LunaTranslator/releases'",
+            "$latest = $rel_info | Sort-Object {$_.published_at} | Select-Object -last 1",
+            "$latest_asset = $latest.assets | Where-Object { $_.name -eq 'LunaTranslator.zip' } | Select-Object -first 1",
+            "$latest_asset_updated_at = $latest_asset.updated_at -replace ('[^\\d]', '')",
+            "Write-Output (\"{0} {0}+{1}\" -f ($latest.tag_name, $latest_asset_updated_at))"
+        ],
+        "regex": "(?<tag>[\\d.]+)\\sv?(?<version>.+)"
+    },
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$version/LunaTranslator_x86.zip"
+                "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$matchTag/LunaTranslator_x86.zip"
             },
             "64bit": {
-                "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$version/LunaTranslator.zip"
+                "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$matchTag/LunaTranslator.zip"
             }
         }
     }

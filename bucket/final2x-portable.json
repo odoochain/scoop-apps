@@ -1,5 +1,5 @@
 {
-    "version": "2024-01-02",
+    "version": "2024-07-01",
     "description": "2^x Image Super-Resolution",
     "homepage": "https://github.com/Tohrusky/Final2x",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Tohrusky/Final2x/releases/download/2024-01-02/Final2x-windows-x64-unpacked.zip",
-            "hash": "8d7231827c193caa2a743c2734ac17f6f51440224448212f76afdfd9f2d3bb3e"
+            "url": "https://github.com/Tohrusky/Final2x/releases/download/2024-07-01/Final2x-windows-x64-unpacked.zip",
+            "hash": "36855cb1827bcad240f0d82e051c62d2c64de408924cafebd7ba46949f7b0d4c"
         },
         "arm64": {
-            "url": "https://github.com/Tohrusky/Final2x/releases/download/2024-01-02/Final2x-windows-arm64-unpacked.zip",
-            "hash": "f916b5dae67068d89a614aa9f1069e0254f5a0ca063b67313c44823741606ded"
+            "url": "https://github.com/Tohrusky/Final2x/releases/download/2024-07-01/Final2x-windows-arm64-unpacked.zip",
+            "hash": "2d6dee79f15640663a764555a01b8214316fcbdce4baba4e18d1ae116aabb6a3"
         }
     },
     "installer": {

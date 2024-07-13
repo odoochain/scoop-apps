@@ -1,5 +1,5 @@
 {
-    "version": "1.14.1",
+    "version": "1.14.3",
     "description": "Sandboxie is a sandbox-based isolation software for 32-bit and 64-bit Windows NT-based operating systems.",
     "homepage": "https://sandboxie-plus.com/",
     "license": {
@@ -9,12 +9,12 @@
     "notes": "Get Sandboxie Classic if you have used Sandboxie for a long time and prefer a familiar environment over new features.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.14.1/Sandboxie-Plus-x64-v1.14.1.exe",
-            "hash": "ef98427f1d66e9cfdfd110a4c87e11e43a4982fa1450ae788de6ea7db1c67efd"
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.14.3/Sandboxie-Plus-x64-v1.14.3.exe",
+            "hash": "6de50fecf2024d58528a4d0bc1764fda83d92061debb6a679463ff02b5ce5947"
         },
         "32bit": {
-            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.14.1/Sandboxie-Plus-x86-v1.14.1.exe",
-            "hash": "25117972e54b7447f70b5613a40b6857546ab4928d3a037422e76fc956ce3b78"
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.14.3/Sandboxie-Plus-x86-v1.14.3.exe",
+            "hash": "0cf559e0cbf5dbbc04f408781c8d145857c9c47fab51b7a8dd35e054b58abd03"
         }
     },
     "innosetup": true,

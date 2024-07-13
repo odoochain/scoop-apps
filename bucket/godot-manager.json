@@ -1,12 +1,12 @@
 {
-    "version": "0.2.6",
+    "version": "0.2.9",
     "description": "A project, version, and addons/plugins manager for Godot.",
     "homepage": "https://github.com/eumario/godot-manager",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/eumario/godot-manager/releases/download/v0.2.6/godotmanager-windows-v0.2.6.zip",
-            "hash": "fa286a11f4f302b8624e7282e73a052a75673d58fe0cff5befb82cca5ce8aeaa"
+            "url": "https://github.com/eumario/godot-manager/releases/download/v0.2.9/godotmanager-windows-v0.2.9.zip",
+            "hash": "b268dacf7f00d9e87e2013569e14888a1e0edbc31afcfd0134f7a0a8aa6db3c5"
         }
     },
     "shortcuts": [

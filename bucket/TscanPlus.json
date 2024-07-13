@@ -1,17 +1,19 @@
 {
-    "version": "1.9",
+    "version": "2.1",
     "description": "综合性网络安全检测和运维工具,快速进行资产发现、识别、检测,发现存在的薄弱点和攻击面.(Scoop bucket for Cybersecurity by s0nd9r)",
     "homepage": "https://github.com/TideSec/TscanPlus",
     "license": "Unknown",
     "notes": "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security).",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TideSec/TscanPlus/releases/download/v1.9/TscanPlus_windows_amd64_v1.9.zip",
-            "hash": "c63c06472bd6742528ba7eb0fca3e06f3711cf68c324b4af12b0f39542b6a0e9"
+            "url": "https://github.com/TideSec/TscanPlus/releases/download/v2.1/TscanPlus_Win_Amd64_v2.1.zip",
+            "hash": "d74d075bdfa67b372f7d8f8cde6429f5ec8ead54706d668f6500cf57a5b4c8db",
+            "pre_install": "Rename-Item \"$dir\\TscanPlus_Win_v2.1-upx.exe\" 'TscanPlus.exe'"
         },
         "arm64": {
-            "url": "https://github.com/TideSec/TscanPlus/releases/download/v1.9/TscanPlus_windows_arm64_v1.9.zip",
-            "hash": "a3d18db10378db869ba545fef0da124df1d3ec8303d58d2930e80aeae648c29b"
+            "url": "https://github.com/TideSec/TscanPlus/releases/download/v2.1/TscanPlus_Win_Arm64_v2.1.zip",
+            "hash": "be782d7f9838ef7f3b969910cd39e4408d20dde50ce14e07d8e6975b498d3ec1",
+            "pre_install": "Rename-Item \"$dir\\TscanPlus_Win_v2.1.exe\" 'TscanPlus.exe'"
         }
     },
     "bin": "TscanPlus.exe",
@@ -19,10 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_windows_amd64_v$version.zip"
+                "url": "https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_Win_Amd64_v$version.zip"
             },
             "arm64": {
-                "url": "https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_windows_arm64_v$version.zip"
+                "url": "https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_Win_Arm64_v$version.zip"
             }
         }
     }

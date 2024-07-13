@@ -1,13 +1,13 @@
 {
-    "version": "1.8.12",
+    "version": "1.8.17",
     "description": "A SIP003 plugin based on Xray-core.",
     "homepage": "https://github.com/teddysun/xray-plugin",
     "license": "MIT",
     "notes": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/teddysun/xray-plugin/releases/download/v1.8.12/xray-plugin-windows-amd64-v1.8.12.tar.gz",
-            "hash": "0e626e490c6bc5eb607678185c1fc68b46fad12eeced6401aab103c456d12a67"
+            "url": "https://github.com/teddysun/xray-plugin/releases/download/v1.8.17/xray-plugin-windows-amd64-v1.8.17.tar.gz",
+            "hash": "ffad87fe0011a31538df7b52ecbe5b9b34d3e0e0c3862fdf362ad1dd1de2f402"
         }
     },
     "checkver": {

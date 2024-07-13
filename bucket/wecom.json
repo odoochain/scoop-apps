@@ -1,13 +1,13 @@
 {
-    "version": "4.1.26.6019",
+    "version": "4.1.27.6032",
     "description": "WeCom/WXWork/企业微信/WeChat-Work, a professional office management tool for enterprises created by Tencent",
     "homepage": "https://work.weixin.qq.com/",
     "license": {
         "identifier": "Proprietary",
         "url": "https://work.weixin.qq.com/nl/eula"
     },
-    "url": "https://dldir1.qq.com/wework/work_weixin/WeCom_4.1.26.6019.exe#/dl.7z",
-    "hash": "d38faec239e0df43679e580d3dd9cffe4122fddec08c6d1c1ed13180a048cf13",
+    "url": "https://dldir1.qq.com/wework/work_weixin/WeCom_4.1.27.6032.exe#/dl.7z",
+    "hash": "079bd469e186d91841671e2b80df673e17dcd8f3dd0b46860760a94219c1e098",
     "installer": {
         "script": [
             "Remove-Item \"$dir\\`$*\" -Recurse -Force -ErrorAction SilentlyContinue",

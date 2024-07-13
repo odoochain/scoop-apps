@@ -1,10 +1,10 @@
 {
-    "version": "0.14.6",
+    "version": "0.15.4",
     "description": "A privacy-focussed, local-first, open-source, and ready-to-use alternative for Notion & Miro.",
     "homepage": "https://github.com/toeverything/AFFiNE",
     "license": "MPL-2.0",
-    "url": "https://github.com/toeverything/AFFiNE/releases/download/v0.14.6/affine-0.14.6-stable-windows-x64.exe#/dl.7z",
-    "hash": "dc401e2113705fd4d5dd8b240596d935e86332c7fe21d86edc89dc7e92bb027c",
+    "url": "https://github.com/toeverything/AFFiNE/releases/download/v0.15.4/affine-0.15.4-stable-windows-x64.exe#/dl.7z",
+    "hash": "5dfd998fc6a8f8d4619c94e3eb3d00f89e2bdc07f8e381d258dd03f647e3b024",
     "pre_install": [
         "Get-ChildItem \"$dir\\*\" -Exclude 'AFFiNE-*nupkg' | Remove-Item",
         "Expand-7zipArchive \"$dir\\AFFiNE-*-full.nupkg\" -ExtractDir 'lib\\net45' -Removal"
