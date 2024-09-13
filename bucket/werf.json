@@ -1,12 +1,12 @@
 {
-    "version": "1.2.320",
+    "version": "1.2.328",
     "description": "A CNCF Sandbox CLI tool to implement full-cycle CI/CD to Kubernetes easily",
     "homepage": "https://werf.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://tuf.werf.io/targets/releases/1.2.320/windows-amd64/bin/werf.exe",
-            "hash": "c2812d2a7ff22d823362222f7474ebdc5bf3ceac68e41844cc5e26d1fcd56db8"
+            "url": "https://tuf.werf.io/targets/releases/1.2.328/windows-amd64/bin/werf.exe",
+            "hash": "9136f6ed17a26f7e5cd6a2a178bf471051f9545942667630cf4338483cdf7f2f"
         }
     },
     "bin": "werf.exe",

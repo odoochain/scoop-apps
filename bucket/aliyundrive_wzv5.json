@@ -1,9 +1,9 @@
 {
-    "version": "6.0.0",
+    "version": "6.3.2",
     "homepage": "https://www.aliyundrive.com/",
     "license": "Freeware",
-    "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/update/6.0.0/win32/x64/aDrive-6.0.0.exe?_=sourceforge.net",
-    "hash": "sha512:06d3185c150bccd0c2600021013f24a05858be2003cdd0de9ea70f57a563cfa21416547e89789365072bd87ce7559ce8bb4039f7be4dca185d70e658555aafb7",
+    "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/update/6.3.2/win32/x64/aDrive-6.3.2.exe?_=sourceforge.net",
+    "hash": "sha512:a4af7893e1223aef57c0a6b811b345903ea65335cf869503ef41eb96a8794f196996d3cb135827e9ac92201638b012e249ea037a41d5f92807278511a4ad530d",
     "installer": {
         "script": "Expand-7zipArchive -Path \"$dir\\$fname\" -Removal"
     },

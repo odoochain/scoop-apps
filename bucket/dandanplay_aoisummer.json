@@ -1,12 +1,12 @@
 {
     "homepage": "https://www.dandanplay.com/",
     "description": "A local video player with danmu.",
-    "version": "15.6.1",
+    "version": "15.9.0",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://dandan.sakurateam.top/dandanplay-x64_15.6.1.zip",
-            "hash": "f11680ee0c257fa9342f0f098031ad50b6907254db907ee18ec3b78b5732c39e",
+            "url": "https://dandan.sakurateam.top/dandanplay-x64_15.9.0.zip",
+            "hash": "68ff3bbf46023788c70ee47c0c2f0be339789284eeaf75020b2b3268b05b1f83",
             "extract_dir": "dandanplay-x64"
         }
     },

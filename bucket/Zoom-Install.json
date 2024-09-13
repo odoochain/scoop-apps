@@ -1,16 +1,16 @@
 {
-    "version": "6.1.1.41705",
+    "version": "6.1.11.45504",
     "description": "Zoom provides videotelephony and online chat services through a cloud-based peer-to-peer software platform and is used for teleconferencing, telecommuting, distance education, and social relations.",
     "homepage": "https://zoom.us/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://www.zoom.us/client/6.1.1.41705/ZoomInstallerFull.msi?archType=x64#/setup.msi_",
-            "hash": "a9d80eb47e7e45cfe180241916b405deeba5bf529445c53e3bb1193580ecab55"
+            "url": "https://www.zoom.us/client/6.1.11.45504/ZoomInstallerFull.msi?archType=x64#/setup.msi_",
+            "hash": "f53d82d9ff930f6504e0fc7070664f45d4e7bc0826584b1b9ad40dff7d0cb4e0"
         },
         "32bit": {
-            "url": "https://www.zoom.us/client/6.1.1.41705/ZoomInstallerFull.msi#/setup.msi_",
-            "hash": "4fce37df66eda926a0e540dd8c18e3519b9f5e690f5fb70c3f39cd733a80a5de"
+            "url": "https://www.zoom.us/client/6.1.11.45504/ZoomInstallerFull.msi#/setup.msi_",
+            "hash": "7550f00d1c155321b221da5c6af655e95b7c142bb4e20f14877bd249ed2d2767"
         }
     },
     "pre_download": "Assert-Administrator",

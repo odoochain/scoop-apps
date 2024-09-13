@@ -1,16 +1,16 @@
 {
-    "version": "9.2.5-1",
+    "version": "9.2.7-1",
     "description": "Comprehensive free Prolog environment.",
     "homepage": "https://www.swi-prolog.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://www.swi-prolog.org/download/stable/bin/swipl-9.2.5-1.x64.exe#/dl.7z",
-            "hash": "2b412c2eb45c120b7215e013fbcd53ef3b7fa912f1d50e806bcfbb31f06e0cab"
+            "url": "https://www.swi-prolog.org/download/stable/bin/swipl-9.2.7-1.x64.exe#/dl.7z",
+            "hash": "125759909b6d1dc43323cdaa98a62b8f765a40748d9d2c9f3ae028d05441e117"
         },
         "32bit": {
-            "url": "https://www.swi-prolog.org/download/stable/bin/swipl-9.2.5-1.x86.exe#/dl.7z",
-            "hash": "c5235c31dfa217ed2a2cb4c8375e8ec36c672b3f71a2496a3dac1eae2a4dd1fe"
+            "url": "https://www.swi-prolog.org/download/stable/bin/swipl-9.2.7-1.x86.exe#/dl.7z",
+            "hash": "2daf0843a38b8a96f0a292554df6be8cec4c1a7a3012a8fd7909bd29ca44307b"
         }
     },
     "bin": [

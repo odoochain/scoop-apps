@@ -1,5 +1,5 @@
 {
-    "version": "2407-43",
+    "version": "2409-30",
     "description": "A Nintendo GameCube and Wii emulator",
     "homepage": "https://dolphin-emu.org/",
     "license": {
@@ -9,26 +9,25 @@
     "suggest": {
         "Microsoft Visual C++ Runtime 2022": "extras/vcredist2022"
     },
-    "url": "https://dl.dolphin-emu.org/builds/76/fe/dolphin-master-2407-43-x64.7z",
-    "hash": "1e2142b9ef396c57335417ff322b20a9a8a926791baa44c317b10ead181057af",
-    "extract_dir": "Dolphin-x64",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.dolphin-emu.org/builds/88/05/dolphin-master-2409-30-x64.7z",
+            "hash": "77bb0a7fb412050c2460943f827f5207798aa806082bd88a7708e73ef8dc0a80",
+            "extract_dir": "Dolphin-x64"
+        }
+    },
     "pre_install": [
-        "if (!(Test-Path \"$persist_dir\")) {",
-        "   New-item \"$persist_dir\" -ItemType Directory | Out-Null",
-        "   New-item \"$persist_dir\\User\" -ItemType Directory | Out-Null",
-        "   if (Test-Path \"$env:USERPROFILE\\Documents\\Dolphin Emulator\") {",
-        "       Write-host \"Migrating AppData...\" -ForegroundColor yellow",
-        "       Copy-Item -Path \"$env:USERPROFILE\\Documents\\Dolphin Emulator\\*\" -Destination \"$persist_dir\\User\" -Recurse",
-        "       Remove-Item -Path \"$env:USERPROFILE\\Documents\\Dolphin Emulator\" -Recurse",
-        "   }",
+        "$appdataPath = \"$Env:AppData\\Dolphin Emulator\"",
+        "if ((Test-Path -Path $appdataPath\\*) -and (!(Test-Path -Path $persist_dir\\*))) {",
+        "   Write-Warning \"Migrating AppData...\"",
+        "   New-Item -Type Directory -Path $persist_dir\\User -Force | Out-Null",
+        "   Copy-Item -Recurse -Force $appdataPath\\* -Destination $persist_dir\\User\\",
         "}"
     ],
     "post_install": "Set-Content -Value $null -Path \"$dir\\portable.txt\"",
     "bin": [
-        [
-            "Dolphin.exe",
-            "dolphin-dev"
-        ]
+        "Dolphin.exe",
+        "DolphinTool.exe"
     ],
     "shortcuts": [
         [
@@ -43,6 +42,10 @@
         "replace": "${major}-${build}"
     },
     "autoupdate": {
-        "url": "https://dl.dolphin-emu.org/builds/$matchRand1/$matchRand2/dolphin-master-$matchMajor-$matchBuild-x64.7z"
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.dolphin-emu.org/builds/$matchRand1/$matchRand2/dolphin-master-$matchMajor-$matchBuild-x64.7z"
+            }
+        }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "version": "1.9.0",
+    "version": "1.9.2",
     "description": "Lightweight SQLite editor for Windows.",
     "homepage": "https://github.com/little-brother/sqlite-gui",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/little-brother/sqlite-gui/releases/download/1.9.0/sqlite-gui-1.9.0-x64.zip",
-            "hash": "d8344fd3569eb1c5332335606dfa53987caba65076eeb53216d40ea0f2adc75e"
+            "url": "https://github.com/little-brother/sqlite-gui/releases/download/1.9.2/sqlite-gui-1.9.2-x64.zip",
+            "hash": "87410cf79b6f3e412395af7a3e6db3df60afb71ff5d10606d8dd8a07a22b9e39"
         },
         "32bit": {
-            "url": "https://github.com/little-brother/sqlite-gui/releases/download/1.9.0/sqlite-gui-1.9.0-x32.zip",
-            "hash": "f3ebda337caefe1b5f50f5be813b5b662f62d19afb11a102242eef23ba2add75"
+            "url": "https://github.com/little-brother/sqlite-gui/releases/download/1.9.2/sqlite-gui-1.9.2-x32.zip",
+            "hash": "a98834c134a0262e6089c1b0729dd7548d88a02a88fdf79144ac393576a8c7fb"
         }
     },
     "pre_install": "if(!(Test-Path \"$dir/prefs.sqlite\")) { Add-Content \"$dir/prefs.sqlite\" $null }",

@@ -1,13 +1,13 @@
 {
-    "version": "4.6.1-nightly-76",
+    "version": "4.8.1-nightly-85",
     "description": "Ultra-fast Genshin Impact Auto Pickup.",
     "homepage": "https://github.com/Alex-Beng/Yap",
     "license": {
         "identifier": "GPL-3.0",
         "url": "https://github.com/Alex-Beng/Yap/blob/master/LICENSE"
     },
-    "url": "https://github.com/Alex-Beng/Yap/releases/download/nightly-76/yap.zip",
-    "hash": "b930031d42f9b4b447b6fff6dfdd1a3feb641a201501c45cda61fe2970128306",
+    "url": "https://github.com/Alex-Beng/Yap/releases/download/nightly-85/yap.zip",
+    "hash": "09f8d6f750daf9d7c2496e8d996901fef7a990bc04f7f1fae1e3c991337a1881",
     "bin": "yap.exe",
     "checkver": {
         "script": [

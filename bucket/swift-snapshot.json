@@ -2,11 +2,15 @@
     "homepage": "https://www.swift.org/",
     "description": "The Swift Programming Language (Snapshot build)",
     "license": "Apache-2.0",
-    "version": "snapshot-2024-07-02-a",
+    "version": "snapshot-2024-09-06-a",
     "architecture": {
         "64bit": {
-            "url": "https://download.swift.org/development/windows10/swift-DEVELOPMENT-SNAPSHOT-2024-07-02-a/swift-DEVELOPMENT-SNAPSHOT-2024-07-02-a-windows10.exe",
-            "hash": "ce799b41195b70af9e7734dfed19c4ec4ec79bbc9eadba611e37e8888b16a734"
+            "url": "https://download.swift.org/development/windows10/swift-DEVELOPMENT-SNAPSHOT-2024-09-06-a/swift-DEVELOPMENT-SNAPSHOT-2024-09-06-a-windows10.exe",
+            "hash": "f0cfd617a9be6184a460f6d3ae72d608b1db02c3078385831dbd04040fbb6359"
+        },
+        "arm64": {
+            "url": "https://download.swift.org/development/windows10-arm64/swift-DEVELOPMENT-SNAPSHOT-2024-09-06-a/swift-DEVELOPMENT-SNAPSHOT-2024-09-06-a-windows10-arm64.exe",
+            "hash": "cbeee2b9aa56a87ab21abd4602dc54c2077699902f1224686eff9ea9525d4fee"
         }
     },
     "depends": "main/wixtoolset",
@@ -37,9 +41,9 @@
             "Get-ChildItem \"$dir\\LocalApp\\Programs\\Swift\" | ForEach-Object {",
             "    Move-Item -Path $_ -Destination \"$dir\\\" -Force",
             "}",
-            "Remove-Item \"$dir\\Platforms\\$productVersion\" | Out-Null",
-            "Remove-Item \"$dir\\Toolchains\\$($productVersion)+Asserts\" | Out-Null",
-            "Remove-Item \"$dir\\Redistributables\\$productVersion\" | Out-Null",
+            "Remove-Item \"$dir\\Platforms\\$productVersion\" -Recurse | Out-Null",
+            "Remove-Item \"$dir\\Toolchains\\$($productVersion)+Asserts\" -Recurse | Out-Null",
+            "Remove-Item \"$dir\\Redistributables\\$productVersion\" -Recurse | Out-Null",
             "@(\"$fname\", 'extracted', 'LocalApp', 'SourceDir') | ForEach-Object {",
             "    Remove-Item \"$dir\\$_\" -Recurse -ErrorAction SilentlyContinue | Out-Null",
             "}"
@@ -53,7 +57,7 @@
         "SDKROOT": "$dir\\Platforms\\Windows.platform\\Developer\\SDKs\\Windows.sdk"
     },
     "checkver": {
-        "url": "https://dorado-api.deno.dev/swift-tmp",
+        "url": "https://download.swift.org/development/windows10/latest-build.json",
         "regex": "swift-DEVELOPMENT-SNAPSHOT-(?<build>[\\w\\-]+)-windows10.exe",
         "replace": "snapshot-${build}"
     },
@@ -61,6 +65,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://download.swift.org/development/windows10/swift-DEVELOPMENT-SNAPSHOT-$matchBuild/swift-DEVELOPMENT-SNAPSHOT-$matchBuild-windows10.exe"
+            },
+            "arm64": {
+                "url": "https://download.swift.org/development/windows10-arm64/swift-DEVELOPMENT-SNAPSHOT-$matchBuild/swift-DEVELOPMENT-SNAPSHOT-$matchBuild-windows10-arm64.exe"
             }
         }
     },

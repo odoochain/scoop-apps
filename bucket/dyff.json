@@ -1,16 +1,16 @@
 {
-    "version": "1.8.0",
+    "version": "1.9.0",
     "description": "Diff tool for YAML files, and sometimes JSON",
     "homepage": "https://github.com/homeport/dyff",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/homeport/dyff/releases/download/v1.8.0/dyff_1.8.0_windows_amd64.tar.gz",
-            "hash": "40a8110dc31b01bfe3fcab5b99e6db15498777a937aec06f32373dc552e412f6"
+            "url": "https://github.com/homeport/dyff/releases/download/v1.9.0/dyff_1.9.0_windows_amd64.tar.gz",
+            "hash": "bb5e48ca8e235efe5770965540d4a108f2f1a7ed72aaaa74ac5dd25c411d923a"
         },
         "arm64": {
-            "url": "https://github.com/homeport/dyff/releases/download/v1.8.0/dyff_1.8.0_windows_arm64.tar.gz",
-            "hash": "4a7b8b56bef7e6f4e6edfbadd358b78319adc5124f1b126de6677c4f2c43ad30"
+            "url": "https://github.com/homeport/dyff/releases/download/v1.9.0/dyff_1.9.0_windows_arm64.tar.gz",
+            "hash": "84db02ba1d30c092e593f2b2dbc91f6390921e6e091b2f9e754077945822e84d"
         }
     },
     "bin": "dyff.exe",

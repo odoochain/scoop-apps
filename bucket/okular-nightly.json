@@ -1,12 +1,12 @@
 {
-    "version": "5123",
+    "version": "5320",
     "description": "Universal document viewer",
     "homepage": "https://okular.kde.org",
     "license": "LGPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/graphics/okular/master/windows/okular-master-5123-windows-cl-msvc2022-x86_64.7z",
-            "hash": "0f2a703f751c9566bd8e665eb62b26f3c25aa27338a00566d0ecf34137ce13bc"
+            "url": "https://cdn.kde.org/ci-builds/graphics/okular/master/windows/okular-master-5320-windows-cl-msvc2022-x86_64.7z",
+            "hash": "c8010f8575867d46353cc5cfa06e667fdba9d4a03c655f503fe810bed7f3220e"
         }
     },
     "bin": [

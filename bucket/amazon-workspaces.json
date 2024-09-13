@@ -1,5 +1,5 @@
 {
-    "version": "5.21.0.4736",
+    "version": "5.22.1.4847",
     "description": "Client for Amazon workspaces service",
     "homepage": "https://clients.amazonworkspaces.com",
     "license": {
@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://d2td7dqidlhjx7.cloudfront.net/prod/global/windows/Amazon+WorkSpaces.msi",
-            "hash": "493d9aad3f793239c0b2110180a6ba1e2c59c5d852b4521ad5a8d7c26ded0dca"
+            "hash": "e81b96c40614256c9234ef9a876bf6b055926ca520498ef8b4c98f0f0d47eac9"
         }
     },
     "extract_dir": "[ApplicationFolderName]",

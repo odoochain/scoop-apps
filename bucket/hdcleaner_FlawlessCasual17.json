@@ -1,5 +1,5 @@
 {
-    "version": "2.071",
+    "version": "2.080",
     "homepage": "https://kurtzimmermann.com/index_e.html",
     "description": "An application that offers a comprehensive toolkit for system maintenance. Developed by Kurt Zimmermann.",
     "license": {
@@ -13,11 +13,11 @@
     "architecture": {
         "32bit": {
             "url": "https://kurtzimmermann.com/files/HDCleanerX32.zip",
-            "hash": "40c41e6a2aa279be7a50b345722b1e16c5cf8defa5951fbfe9d77b64fc4b6527"
+            "hash": "fc00ae59f73f9f8eeb546ef3acc1556ddc35f4a90d848af86f841d944443f8e6"
         },
         "64bit": {
             "url": "https://kurtzimmermann.com/files/HDCleanerX64.zip",
-            "hash": "25cb201c2e007e181f2c36c43292bbca7955fbfdf00f4722c12227ca7686b9bd"
+            "hash": "43f2c978823fa83f8b5ec3a3290c0e4dd5eb1738cef45deb672a74c98ac62341"
         }
     },
     "pre_install": "Remove-Item \"$dir\\Uninstaller.exe\" | Out-Null",

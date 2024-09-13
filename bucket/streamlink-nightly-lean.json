@@ -1,5 +1,5 @@
 {
-    "version": "6.8.3-0-g00b8951",
+    "version": "6.10.0-15-gb788b1e",
     "description": "A command-line utility that pipes video streams from various services into a video player.",
     "homepage": "https://streamlink.github.io/",
     "license": "BSD-2-Clause",
@@ -16,12 +16,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/streamlink/windows-builds/workflows/nightly/master/streamlink-6.8.3-0-g00b8951-py312-x86_64.zip.zip",
-            "hash": "819c3b2fd5670e1938d3e58bd4169ad21311a5c490461c471ddc284bb47b37b3"
+            "url": "https://nightly.link/streamlink/windows-builds/workflows/nightly/master/streamlink-6.10.0-15-gb788b1e-py312-x86_64.zip.zip",
+            "hash": "d69854fa9e6d094a66cea93deb2181a52d660f8c9f30f50104438fef8f60ca77"
         },
         "32bit": {
-            "url": "https://nightly.link/streamlink/windows-builds/workflows/nightly/master/streamlink-6.8.3-0-g00b8951-py312-x86.zip.zip",
-            "hash": "bf75488a4a08bbc476484c6012dfb67188f461c55e30938aaf4d51cad7e5aec5"
+            "url": "https://nightly.link/streamlink/windows-builds/workflows/nightly/master/streamlink-6.10.0-15-gb788b1e-py312-x86.zip.zip",
+            "hash": "cf545ef1780c8b6a72fcfa64179c267143f8b985fb2e2632acf9939c00dd9072"
         }
     },
     "pre_install": [
@@ -33,7 +33,7 @@
         "} else { $paths += 'Python' }",
         "$paths | ForEach-Object { Move-Item \"$dir/streamlink-$version-py312-x86*/$_\" \"$dir\" }",
         "Remove-Item -Recurse \"$dir/streamlink-$version-py312-x86*\"",
-        "if ((Test-Path \"$persist_dir/config\")) { return }",
+        "if (Test-Path \"$persist_dir/config\") { return }",
         "if (Test-Path \"$env:APPDATA/streamlink/config\") {",
         "    info 'Copying existing ''config'' from ''%APPDATA%\\streamlink\\config'''",
         "    return $null = Copy-Item \"$env:APPDATA/streamlink/config\" \"$dir/config\"",

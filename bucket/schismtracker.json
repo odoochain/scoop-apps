@@ -1,20 +1,20 @@
 {
-    "version": "20240630",
+    "version": "20240909",
     "description": "An oldschool sample-based music composition tool",
     "homepage": "http://schismtracker.org",
     "license": "GPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/schismtracker/schismtracker/releases/download/20240630/schismtracker-20240630-windows-x86_64.zip",
-            "hash": "2ceadfbc9413b819fd7b992ac5064b63b66aaef623f8d908da65e8246059d613"
+            "url": "https://github.com/schismtracker/schismtracker/releases/download/20240909/schismtracker-20240909-windows-x86_64.zip",
+            "hash": "c24be73c5619bf7d0243a290fb833424d247a7a864de845e01696da3eb9950e1"
         },
         "32bit": {
-            "url": "https://github.com/schismtracker/schismtracker/releases/download/20240630/schismtracker-20240630-windows-i686.zip",
-            "hash": "7452f590ccd0ac37418ca9eb4662c36a46c49aa309a9118a570fc122fdfa6a93"
+            "url": "https://github.com/schismtracker/schismtracker/releases/download/20240909/schismtracker-20240909-windows-i686.zip",
+            "hash": "9961c09e80bee5e6e37c4e2c2005b2e81f77565505503e15bc68e4020e9cbfda"
         },
         "arm64": {
-            "url": "https://github.com/schismtracker/schismtracker/releases/download/20240630/schismtracker-20240630-windows-aarch64.zip",
-            "hash": "2c10b29fdd6d3ad5badb759695ebc020207c1dd97268daa7b1feb157dd825eb6"
+            "url": "https://github.com/schismtracker/schismtracker/releases/download/20240909/schismtracker-20240909-windows-aarch64.zip",
+            "hash": "756f0a107792e34808cb46edc05e54617f1b16e976f21f65b954ad33a36b1cf6"
         }
     },
     "bin": "schismtracker.exe",

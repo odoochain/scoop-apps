@@ -1,12 +1,12 @@
 {
-    "version": "2.0.0",
+    "version": "2.1.2",
     "description": "",
     "homepage": "https://github.com/dyang886/Game-Cheats-Manager",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dyang886/Game-Cheats-Manager/releases/download/v2.0.0/Game.Cheats.Manager.Setup.2.0.0.exe",
-            "hash": "c5775fd0ce73f9620f721501e4bc8b3aca4609e4443c9d20242ae5338973b771"
+            "url": "https://github.com/dyang886/Game-Cheats-Manager/releases/download/v2.1.2/Game.Cheats.Manager.Setup.2.1.2.exe",
+            "hash": "9ecd8dd5328a13e26b8b7f7739390d5e821487488d4e1f580532324c89838ae5"
         }
     },
     "innosetup": true,

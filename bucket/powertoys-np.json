@@ -1,13 +1,13 @@
 {
-    "version": "0.82.1",
+    "version": "0.84.1",
     "description": "System utilities to maximize productivity.",
     "homepage": "https://github.com/microsoft/PowerToys",
     "license": "MIT",
     "depends": "dotnet-sdk",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/PowerToys/releases/download/v0.82.1/PowerToysSetup-0.82.1-x64.exe#/setup.exe",
-            "hash": "b8fa7e7c8f88b69e070e234f561d32807634e2e9d782edbb9dc35f3a454f2264"
+            "url": "https://github.com/microsoft/PowerToys/releases/download/v0.84.1/PowerToysSetup-0.84.1-x64.exe#/setup.exe",
+            "hash": "10df9774de1857051e135b9790a18a92c5c7f42587c733dee991186e67231ee0"
         }
     },
     "installer": {

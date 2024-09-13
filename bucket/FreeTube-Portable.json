@@ -1,13 +1,13 @@
 {
-    "version": "0.21.1-beta",
+    "version": "0.21.3-beta",
     "description": "FreeTube. The private YouTube client",
     "homepage": "https://freetubeapp.io",
     "license": "AGPL-3.0-only",
     "changelog": "https://github.com/FreeTubeApp/FreeTube/releases",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.21.1-beta/freetube-0.21.1-win-x64-portable.zip#/dl.7z",
-            "hash": "aa0fb3f89998696ee367e6b285c253037b1f471eb12d7b3eac3de3cdb8f9eddc"
+            "url": "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.21.3-beta/freetube-0.21.3-win-x64-portable.zip#/dl.7z",
+            "hash": "ad42a56b3123301b2da4f43bcde3c4797647daa203ef2b93a1e217a0ae173324"
         }
     },
     "shortcuts": [

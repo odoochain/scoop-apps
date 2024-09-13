@@ -1,13 +1,13 @@
 {
-    "version": "8.123.0.203",
+    "version": "8.127.0.200",
     "description": "Communication tool for free calls and chat.",
     "homepage": "https://www.skype.com/",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.microsoft.com/en-us/servicesagreement/"
     },
-    "url": "http://download.skype.com/s4l/download/win/Skype-8.123.0.203.exe",
-    "hash": "460f3c3861d61b8bc39134118d1865253abcc7fe21117d5d47d655bb15e7c74e",
+    "url": "http://download.skype.com/s4l/download/win/Skype-8.127.0.200.exe",
+    "hash": "cb3085ad6ab1a49e2cf26f9cd80dde152c0b8706c68d0bb4a9300d59f326b1ae",
     "innosetup": true,
     "shortcuts": [
         [

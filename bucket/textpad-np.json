@@ -1,12 +1,12 @@
 {
-    "version": "9.5.0",
+    "version": "9.5.2",
     "description": "A powerful, general purpose editor for plain text files.",
     "homepage": "https://www.textpad.com/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
             "url": "https://www.textpad.com/file?path=v9/setupv9.exe",
-            "hash": "d39d62a00f9448732e4ff141ea6fe83c8005eed1302c98ba8a7be05b4f4d5f49"
+            "hash": "7435396e93c168aa2bf2166709aa7c77115e693b3e4d1fb8f77061ac87b7b324"
         }
     },
     "installer": {

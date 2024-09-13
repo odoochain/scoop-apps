@@ -1,20 +1,20 @@
 {
-    "version": "4.5.1",
+    "version": "4.5.3",
     "description": "Real-time strategy game set in a futuristic universe",
     "homepage": "https://wz2100.net/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Warzone2100/warzone2100/releases/download/4.5.1/warzone2100_win_x64_portable.exe#/dl.7z",
-            "hash": "339501348b647e50fc53159ccce472714db90ef8a2410ee21ed42ee00daa4101"
+            "url": "https://github.com/Warzone2100/warzone2100/releases/download/4.5.3/warzone2100_win_x64_portable.exe#/dl.7z",
+            "hash": "6491fd46dac65a5688e7f51dabea6ad9a999e8071998ec6c6f8a87d082fef640"
         },
         "32bit": {
-            "url": "https://github.com/Warzone2100/warzone2100/releases/download/4.5.1/warzone2100_win_x86_portable.exe#/dl.7z",
-            "hash": "8a0aa3d87ea49ba5f98c0247ca1b42af9680e1059ac6eadc1d09c07d7b2df004"
+            "url": "https://github.com/Warzone2100/warzone2100/releases/download/4.5.3/warzone2100_win_x86_portable.exe#/dl.7z",
+            "hash": "71019074526acedb879aeef996d0179bc78c004cb73f7de3dd4eab93ecac70c9"
         },
         "arm64": {
-            "url": "https://github.com/Warzone2100/warzone2100/releases/download/4.5.1/warzone2100_win_arm64_portable.exe#/dl.7z",
-            "hash": "93a94aa6c9b78e24019da71f91fb1c49d981cada50799b71590ab90062a73068"
+            "url": "https://github.com/Warzone2100/warzone2100/releases/download/4.5.3/warzone2100_win_arm64_portable.exe#/dl.7z",
+            "hash": "27cb74945b5d132e7f2eebc7efbf0d2deca8647cb16c2d7972878691d822af41"
         }
     },
     "bin": "bin\\warzone2100.exe",

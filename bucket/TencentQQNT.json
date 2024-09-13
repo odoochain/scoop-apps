@@ -1,5 +1,5 @@
 {
-    "version": "9.9.9.240507",
+    "version": "9.9.15.240808",
     "description": "A new version of Tencent QQ based on Electron.",
     "homepage": "https://im.qq.com/pcqq/index.shtml",
     "license": "Unknown",
@@ -9,12 +9,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.9_240507_x64_01.exe#/dl.7z",
-            "hash": "3fd2de9ff6e90ac7c31b883d5b365ebf2ca1366bd978c7919ebf2b57d02530ef"
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.15_240808_x64_01.exe#/dl.7z",
+            "hash": "07d1cb0f57d8a6ec78cd03a5a76d09a79bc306a78c49b0dd6203d875dee36828"
         },
         "32bit": {
-            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.9_240507_x86_01.exe#/dl.7z",
-            "hash": "f7ac5cd3d52e26c0d9c0852b2e276e07404482caae8807af8a6f1db5fedb0591"
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.15_240808_x86_01.exe#/dl.7z",
+            "hash": "316227c90e99f9ded6687cd046e99189352d43d5cdb4823b95d9ed5fd6e1351c"
         }
     },
     "extract_dir": "Files",
@@ -49,8 +49,8 @@
         ]
     },
     "checkver": {
-        "url": "https://im.qq.com/pcqq",
-        "regex": "QQNT\\\\u002FWindows\\\\u002FQQ_([\\d\\.]+)_([\\d]+)_x86_01\\.exe",
+        "url": "https://qq-web.cdn-go.cn/im.qq.com_new/4d7d217d/202408081656/windowsDownloadUrl.js",
+        "regex": "QQNT\\/Windows\\/QQ_([\\d\\.]+)_([\\d]+)_x64_01\\.exe",
         "replace": "${1}.${2}"
     },
     "autoupdate": {

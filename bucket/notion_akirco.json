@@ -1,11 +1,11 @@
 {
-    "version": "3.10.0",
+    "version": "3.14.0",
     "description": "The all-in-one workspace for your notes, tasks, wikis, and databases.",
     "homepage": "https://www.notion.so",
     "license": "Proprietary",
     "notes": "Your Notion data are storaged in '%LOCALAPPDATA%\\Notion'.",
-    "url": "https://desktop-release.notion-static.com/Notion%20Setup%203.10.0.exe#/dl.7z",
-    "hash": "sha512:3af02e36cb6615e5900f5e967b77ba9a26061352ac7f506b3eed42db3e59458d22b131c60f4e8c07a8906d528959d8fd2e6dbed253e1539e3a3a5330f0ee0873",
+    "url": "https://desktop-release.notion-static.com/Notion%20Setup%203.14.0.exe#/dl.7z",
+    "hash": "sha512:485852d7fb8c5eb11b6c2f3342a9c90cf9fb29f3395ea4c272e79363ada1387e3ae8f4b1aaf2b1f0e57d89de5566fb27b084b205dc3dbcd7b1906d645c6ec926",
     "extract_dir": "$PLUGINSDIR",
     "installer": {
         "script": [

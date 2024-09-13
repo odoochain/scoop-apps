@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.nomachine.com/download/8.1/Windows/nomachine_8.1.2_4_x64.exe#/setup.exe",
-            "hash": "ed5c7a77b5f0da3f6b417c206ff6040aed87e8e252dabf7c6f64a888da8141c7"
+            "hash": "b46a17553117e474a0b2bd54a1609acab1de2786a4bef76fc06f4c9d5fd84eac"
         }
     },
     "pre_download": "Assert-Administrator",

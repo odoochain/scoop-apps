@@ -1,5 +1,5 @@
 {
-    "version": "7.14.0",
+    "version": "7.17.0",
     "description": "Powerful and easy to use e-book manager",
     "homepage": "https://calibre-ebook.com",
     "license": "GPL-3.0-only",
@@ -7,12 +7,12 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://download.calibre-ebook.com/7.14.0/calibre-portable-installer-7.14.0.exe",
-                "https://github.com/Cirn09/calibre-do-not-translate-my-path/releases/download/v7.14.0/win-patch-backend-v7.14.0.zip"
+                "https://download.calibre-ebook.com/7.17.0/calibre-portable-installer-7.17.0.exe",
+                "https://github.com/Cirn09/calibre-do-not-translate-my-path/releases/download/v7.17.0/win-patch-backend-v7.17.0.zip"
             ],
             "hash": [
-                "sha512:b065f158f72b5a84fc18c9bc141b552d169aa73f06a11090a632b7ee63e9345f9e865acd120222da75d6225276900bc3d53a0909ae1005cf8cce7baf511fb729",
-                "d596d7def8bcdf9f999cf454c7d75b532fb67db6262159ebb7639bd30e5c40bf"
+                "sha512:358c9dba045d87ba369ac85e3c4081997a72d8194068856440a76a2b0d27947c026ea83d895e0e05808c10c32268608750f7429fb98edaab9f0bba761158dd60",
+                "865894ea0420b3f2209bff8d31fe486e68812a094b23b7a45158115ab985970d"
             ]
         }
     },

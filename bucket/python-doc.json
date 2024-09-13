@@ -1,9 +1,9 @@
 {
-    "version": "3.12.4",
+    "version": "3.12.6",
     "homepage": "https://docs.python.org/",
-    "url": "https://docs.python.org/3/archives/python-3.12.4-docs-html.zip",
-    "hash": "2e42860f84c3a79d2f2ca31e88d11e6196beb1749bdd5097b26f02d29b866f41",
-    "extract_dir": "python-3.12.4-docs-html",
+    "url": "https://docs.python.org/3/archives/python-3.12.6-docs-html.zip",
+    "hash": "251d9fa2022b81d415ab5ac76522a61597378885e94131947243a8e0eb5ff55d",
+    "extract_dir": "python-3.12.6-docs-html",
     "shortcuts": [
         [
             "index.html",

@@ -1,5 +1,5 @@
 {
-    "version": "483.0.0",
+    "version": "492.0.0",
     "description": "Command-line interface for Google Cloud Platform products and services.",
     "homepage": "https://cloud.google.com/sdk/",
     "license": "Proprietary",
@@ -7,12 +7,12 @@
     "depends": "7zip19.00-helper",
     "architecture": {
         "64bit": {
-            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-483.0.0-windows-x86_64-bundled-python.zip#/dl.zip_",
-            "hash": "ff268f48f570851a1c48d1febee7928561926f09fd302302db23111be63a7821"
+            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-492.0.0-windows-x86_64-bundled-python.zip#/dl.zip_",
+            "hash": "806797b0eb7b40e89c9b03f0874c9fb3e38066825cee455db6b2401d2a6ea442"
         },
         "32bit": {
-            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-483.0.0-windows-x86-bundled-python.zip#/dl.zip_",
-            "hash": "98abb8771d693ed44b9291970f6a4d369cc254de52ed8e2caf81115c0b22cee1"
+            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-492.0.0-windows-x86-bundled-python.zip#/dl.zip_",
+            "hash": "60bb78e2e805c02abd8807b00e0db17f9625963b86f1712d407de18025458441"
         }
     },
     "pre_install": [

@@ -1,14 +1,14 @@
 {
-    "version": "2024.06.15",
+    "version": "2024.08.23",
     "description": "C/C++ dependency manager from Microsoft For all platforms, buildsystems, and workflows",
     "homepage": "https://vcpkg.io/",
     "license": "MIT",
     "suggest": {
         "Git": "git"
     },
-    "url": "https://github.com/microsoft/vcpkg/archive/refs/tags/2024.06.15.zip",
-    "hash": "c1e988d68cd7403b647e150fb136ffec5cab2239cf589e331299e66930399d45",
-    "extract_dir": "vcpkg-2024.06.15",
+    "url": "https://github.com/microsoft/vcpkg/archive/refs/tags/2024.08.23.zip",
+    "hash": "b1bc7b360d9636260d38f02b461608003808487292388e82b800d2eab57becb1",
+    "extract_dir": "vcpkg-2024.08.23",
     "pre_install": [
         "if (Get-Command \"git.exe\" -ErrorAction SilentlyContinue) {",
         "    if (!(Test-Path \"$persist_dir\")) {",

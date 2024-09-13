@@ -1,12 +1,12 @@
 {
-    "version": "0.1.9",
+    "version": "0.1.15",
     "description": "Graphical client for VRChat Package Manager",
     "homepage": "https://vrc-get.anatawa12.com/alcom/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vrc-get/vrc-get/releases/download/gui-v0.1.9/ALCOM-0.1.9-x86_64.exe#/ALCOM.exe",
-            "hash": "597625d55c84b7493739baa9cff75c4fd1d9bd42a05e02f76b203bb04f8d76c1"
+            "url": "https://github.com/vrc-get/vrc-get/releases/download/gui-v0.1.15/ALCOM-0.1.15-x86_64.exe#/ALCOM.exe",
+            "hash": "348aad586aff984efaedb0429bd891e057d8150adff32e3a23468a024b963375"
         }
     },
     "shortcuts": [

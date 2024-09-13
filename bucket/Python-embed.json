@@ -1,15 +1,15 @@
 {
     "homepage": "https://www.python.org/",
     "license": "Python-2.0",
-    "version": "3.12.4",
+    "version": "3.12.6",
     "architecture": {
         "64bit": {
-            "url": "https://www.python.org/ftp/python/3.12.4/python-3.12.4-embed-amd64.zip",
-            "hash": "md5:8db759b337ac4f6966f52b3662c05dd7"
+            "url": "https://www.python.org/ftp/python/3.12.6/python-3.12.6-embed-amd64.zip",
+            "hash": "md5:ae256f31ee4700eba679802233bff3e9"
         },
         "32bit": {
-            "url": "https://www.python.org/ftp/python/3.12.4/python-3.12.4-embed-win32.zip",
-            "hash": "md5:19691145551a41114b32a556bb2bcb89"
+            "url": "https://www.python.org/ftp/python/3.12.6/python-3.12.6-embed-win32.zip",
+            "hash": "md5:b6eecbdfd865e4a3ae8bed93b9f2cd95"
         }
     },
     "checkver": {

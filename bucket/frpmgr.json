@@ -1,16 +1,16 @@
 {
-    "version": "1.17.0",
+    "version": "1.19.0",
     "description": "A user-friendly desktop GUI client for FRP on Windows.",
     "homepage": "https://github.com/koho/frpmgr",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/koho/frpmgr/releases/download/v1.17.0/frpmgr-1.17.0-setup-x64.exe",
-            "hash": "e2ebbeb96cda70965c39947ee1ef7960c42c32f12313db4746fc518e1193f964"
+            "url": "https://github.com/koho/frpmgr/releases/download/v1.19.0/frpmgr-1.19.0-setup-x64.exe",
+            "hash": "8006ce4cb60053c4b8cc40244e77629d73aea40d5e4c67adf712473fd36fe2d2"
         },
         "32bit": {
-            "url": "https://github.com/koho/frpmgr/releases/download/v1.17.0/frpmgr-1.17.0-setup-x86.exe",
-            "hash": "6a383590e01695a78ee1bfb8520cf5501a062baa1e4c4e34099100ce897d1544"
+            "url": "https://github.com/koho/frpmgr/releases/download/v1.19.0/frpmgr-1.19.0-setup-x86.exe",
+            "hash": "dc167d5073f6040dc98627c8a4a4acb705cb4567b383fa722aad4b08211cff2d"
         }
     },
     "pre_install": [

@@ -1,11 +1,11 @@
 {
-    "version": "9.0.71.3",
+    "version": "9.1.22.3",
     "description": "An Android emulator optimized for mobile gaming with lower resource consumption",
     "homepage": "https://www.ldplayer.net",
     "license": "Unknown",
     "notes": "Administrator privileges are required to run repairer",
-    "url": "https://encdn.ldmnq.com/download/package/LDPlayer_9.0.71.3.exe#/dl.7z",
-    "hash": "3fb177475b91bb00b2399e441844b1e461ce18b055cf47cc503dc2493e51808a",
+    "url": "https://encdn.ldmnq.com/download/package/LDPlayer_9.1.22.3.exe#/dl.7z",
+    "hash": "0bab09166f835c662faaec9772c480d2ec2eb985d50d17de5431bac1fc41eddd",
     "pre_install": [
         "Copy-Item \"$bucketsdir\\ownscoop\\scripts\\ldplayer9\\install.bat\" \"$dir\\\" | Out-Null",
         "Copy-Item \"$bucketsdir\\ownscoop\\scripts\\ldplayer9\\uninstall.bat\" \"$dir\\\" | Out-Null"

@@ -1,5 +1,5 @@
 {
-    "version": "5.13.0",
+    "version": "5.16.0",
     "description": "The free web debugging proxy for any browser, system or platform.",
     "homepage": "https://www.telerik.com/fiddler",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.getfiddler.com/win/Fiddler%20Everywhere%205.13.0.exe#/dl.7z",
-            "hash": "sha512:729d6ea76d00e453aef02097821c5a6124c12962015fada93b43827cdd0927a6a1cda4488876b813f2e37f07be6a02ad56981c080d2b170316d047f3c9e5c010",
+            "url": "https://downloads.getfiddler.com/win/Fiddler%20Everywhere%205.16.0.exe#/dl.7z",
+            "hash": "sha512:b49a8e05fb0db260e8e854e349b633df0f5ec109d0ebf02028d699ff37c70d67bdbbc45cdd8a9d9b215d0b2c39519947d26363c606b957e58096c1ae5eb74289",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\$*\" -Recurse",

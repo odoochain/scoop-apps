@@ -1,16 +1,16 @@
 {
-    "version": "24.4.5.506",
+    "version": "24.7.1.1144",
     "description": "Fast, secure, and free web browser, built for the modern web.",
     "homepage": "https://browser.yandex.com",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://browser.yandex.com/download/?full=1#/dl.7z",
-            "hash": "5dd1712ab07e928ee82639816df183cf9373770d2c38b2911d6ed1576abb1314"
+            "hash": "b2b868fd0e8e6906ef3c9dcd442867b4a598b5c2f4553b6b4228b8809e40721e"
         },
         "32bit": {
             "url": "https://browser.yandex.com/download/?full=1&bitness=32#/dl.7z",
-            "hash": "6804f617b56cfdbde6ba64090e89120c510ca326d3ddbf5a6b131955da8351f4"
+            "hash": "24f31645a4cdefbccb0ce7b15fbc43f7ce1af3a5b4cee84b5c9811c7bb1e3c63"
         }
     },
     "installer": {

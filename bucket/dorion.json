@@ -12,6 +12,16 @@
             "hash": "319dd2c2eec48a35fa13ea2b58130aff5d809a65734bfac2b8842a5af439e64c"
         }
     },
+    "pre_install": [
+        "if (Test-Path -Path $persist_dir) {",
+        "   if (-not (Test-Path -Path (Join-Path $persist_dir 'config.json'))) {",
+        "       New-Item -Path (Join-Path $persist_dir 'config.json')",
+        "   }",
+        "} else {",
+        "   New-Item -Path $persist_dir -ItemType Directory",
+        "   New-Item -Path (Join-Path $persist_dir 'config.json')",
+        "}"
+    ],
     "post_install": [
         "$sourceFolders, $foldersToMove = @(\"~\\dorion\", \"$env:APPDATA\\dorion\"), @(\"plugins\", \"themes\", \"profiles\")",
         "$canMoveFolders = $false",

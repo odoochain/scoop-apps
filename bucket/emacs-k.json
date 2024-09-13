@@ -2,38 +2,23 @@
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
     "homepage": "https://github.com/kiennq/emacs-build",
     "license": "GPLv3",
-    "version": "31.263.20240707.50de3bc",
-    "url": "https://github.com/kiennq/emacs-build/releases/download/v31.263.20240707.50de3bc/emacs-master-x86_64-full.zip",
-    "hash": "d00ee9cdcdb5ec26175201a193303ea886bc89effc2b23588bbc0409fd9486a7",
-    "bin": [
-        "bin\\runemacs.exe",
-        "bin\\emacs.exe",
-        "bin\\emacsclient.exe",
-        "bin\\emacsclientw.exe",
-        "bin\\etags.exe",
-        "bin\\ctags.exe",
-        [
-            "bin\\emacsclientw.exe",
-            "emw",
-            "-c -n -a \"\""
+    "version": "31.315.20240904.04cfac4",
+    "url": "https://github.com/kiennq/emacs-build/releases/download/v31.315.20240904.04cfac4/emacs-04cfac4-ucrt-x86_64-mps.msix",
+    "hash": "8583dc336216031e9b19a6142ebe7176bcf92ee06e6d04fa19d170ac122e9fc8",
+    "installer": {
+        "script": [
+            "Get-ChildItem \"$dir\\*.msix\" | Add-AppxPackage -AllowUnsigned -ForceApplicationShutdown",
+            "Remove-Item -Force \"$dir\\*.msix\""
         ]
-    ],
+    },
+    "uninstaller": {
+        "script": "Get-AppxPackage -Name \"emacs-k\" | Remove-AppxPackage"
+    },
     "checkver": {
         "github": "https://github.com/kiennq/emacs-build",
         "regex": "/tag/v([\\d\\w.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/kiennq/emacs-build/releases/download/v$version/emacs-master-x86_64-full.zip"
-    },
-    "shortcuts": [
-        [
-            "bin\\runemacs.exe",
-            "Emacs"
-        ],
-        [
-            "bin\\emacsclientw.exe",
-            "Emacs Client",
-            "-c -n -a \"\""
-        ]
-    ]
+        "url": "https://github.com/kiennq/emacs-build/releases/download/v$version/emacs-$buildVersion-ucrt-x86_64-mps.msix"
+    }
 }

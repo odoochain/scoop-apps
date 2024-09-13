@@ -1,9 +1,9 @@
 {
     "homepage": "https://pcsx2.net",
-    "version": "1.7.5935",
+    "version": "2.1.120",
     "description": "Playstation 2 Emulator",
-    "url": "https://github.com/PCSX2/pcsx2/releases/download/v1.7.5935/pcsx2-v1.7.5935-windows-x64-Qt.7z",
-    "hash": "f5c38ca99c5874bff2853f2c24ae5cdd3db940ba01a5952fe3eeee4677721950",
+    "url": "https://github.com/PCSX2/pcsx2/releases/download/v2.1.120/pcsx2-v2.1.120-windows-x64-Qt.7z",
+    "hash": "455abbfba39f547311b2a988b09d8f8c9f3c2f4946775bcddafe3efb28012b42",
     "bin": "pcsx2-qt.exe",
     "shortcuts": [
         [

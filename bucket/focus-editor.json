@@ -1,12 +1,12 @@
 {
-    "version": "0.3.5",
+    "version": "0.3.6",
     "homepage": "https://github.com/focus-editor/focus",
     "description": "A simple editor whose goal is to get out of your way and let you do work.",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/focus-editor/focus/releases/download/0.3.5/focus.exe",
-            "hash": "a4cf766277400cf7460f927a2065d6c734e2fd3358d046fe3361f4a17d476824"
+            "url": "https://github.com/focus-editor/focus/releases/download/0.3.6/focus.exe",
+            "hash": "65cb65bc186f4a0862b97d3758f049e4c86cb1389e2696093fa2ccc67d96195c"
         }
     },
     "installer": {
