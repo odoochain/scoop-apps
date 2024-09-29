@@ -1,0 +1,24 @@
+{
+    "version": "1.0.0",
+    "description": "Streaming media server/music client",
+    "homepage": "https://github.com/Super-Badmen-Viper/NSMusicS",
+    "license": "AGPL-3.0",
+    "url": "https://github.com/Super-Badmen-Viper/NSMusicS/releases/download/NSMusicS-Win-v1.0.0/NSMusicS_Win_v.1.0.0.zip",
+    "hash": "16bac575155bb3bbc57ce90fdadcc540cc5077356b16ccabeb7a086f70abdbb0",
+    "extract_dir": "NSMusicS_Win_v.1.0.0",
+    "bin": "NSMusicS.exe",
+    "shortcuts": [
+        [
+            "NSMusicS.exe",
+            "NSMusicS"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/Super-Badmen-Viper/NSMusicS/releases/latest",
+        "regex": "/releases/tag/NSMusicS-Win-v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Super-Badmen-Viper/NSMusicS/releases/download/NSMusicS-Win-v$version/NSMusicS_Win_v.$version.zip",
+        "extract_dir": "NSMusicS_Win_v.$version"
+    }
+}
