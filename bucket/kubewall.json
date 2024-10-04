@@ -1,20 +1,20 @@
 {
-    "version": "0.0.5",
+    "version": "0.0.7",
     "description": "A single binary kubernetes dashboard to manage multiple clusters",
     "homepage": "https://github.com/kubewall/kubewall",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kubewall/kubewall/releases/download/v0.0.5/kubewall_Windows_x86_64.zip",
-            "hash": "31838d666ccea32fb8e10ecbc34ebc1cfcb8c4bf0caeba71c4272ce8ab124f15"
+            "url": "https://github.com/kubewall/kubewall/releases/download/v0.0.7/kubewall_Windows_x86_64.zip",
+            "hash": "5ce0e0376ae3a777a092d313851fbc0ed966dab5a71be110e2a253ade38fdcea"
         },
         "32bit": {
-            "url": "https://github.com/kubewall/kubewall/releases/download/v0.0.5/kubewall_Windows_i386.zip",
-            "hash": "2de4fc209ef23cb4a77b413183d49928fe22fad212a7ecbe0a629224b66d4008"
+            "url": "https://github.com/kubewall/kubewall/releases/download/v0.0.7/kubewall_Windows_i386.zip",
+            "hash": "fe47072e54bb2073571b48dc165fddaf0a8ec8a6cb908cf955f61b63a5b4b272"
         },
         "arm64": {
-            "url": "https://github.com/kubewall/kubewall/releases/download/v0.0.5/kubewall_Windows_arm64.zip",
-            "hash": "ba0f6a1e9846f56e4f7339f5400dc8507c07684c35fa224ff369a3bc1dd6b9c6"
+            "url": "https://github.com/kubewall/kubewall/releases/download/v0.0.7/kubewall_Windows_arm64.zip",
+            "hash": "2508ce7bd097e975fe1b2d7c5e84f346d421872825df746293de1055941f20eb"
         }
     },
     "bin": "kubewall.exe",
