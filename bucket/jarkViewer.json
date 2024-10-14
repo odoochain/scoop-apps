@@ -1,10 +1,10 @@
 {
-    "version": "1.15",
+    "version": "1.17",
     "description": "A simple image viewer",
     "homepage": "https://github.com/jark006/jarkViewer",
     "license": "MIT",
-    "url": "https://github.com/jark006/jarkViewer/releases/download/v1.15/jarkViewer.exe",
-    "hash": "709df225013f275b32e9bd813193b58efd5ea32475b47b63a30c79039bdafcaa",
+    "url": "https://github.com/jark006/jarkViewer/releases/download/v1.17/jarkViewer.exe",
+    "hash": "104e24f2806da6f16e40abeab1d707b47edb317130c80c3338918e67c94954b1",
     "bin": "jarkViewer.exe",
     "checkver": "github",
     "autoupdate": {

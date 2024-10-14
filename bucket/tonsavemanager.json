@@ -1,12 +1,12 @@
 {
-    "version": "2024.10.8.976",
+    "version": "2024.10.12.252",
     "description": "Save manager for VRChat world, Terrors of Nowhere",
     "homepage": "https://github.com/ChrisFeline/ToNSaveManager",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ChrisFeline/ToNSaveManager/releases/download/2024.10.8.976/ToNSaveManager.zip",
-            "hash": "c6eda600959bb57b38c4e87b75a25aef8fd76cb27790efc26143e0fe44660a8f"
+            "url": "https://github.com/ChrisFeline/ToNSaveManager/releases/download/2024.10.12.252/ToNSaveManager.zip",
+            "hash": "aef6cd58e9c94f08d042dfa839e95bb3490eeaa42658e0bbb81c3dbafd54f4df"
         }
     },
     "shortcuts": [
